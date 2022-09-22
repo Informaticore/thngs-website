@@ -4,6 +4,7 @@ title: Hugo Fresh Theme
 theme: hugo-fresh
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
 # Disables warnings
+canonifyURLs: true
 disableKinds:
 - taxonomy
 - taxonomyTerm
