@@ -1,4 +1,4 @@
-baseURL: http://something-fresh.org/
+baseURL: https://informaticore.github.io/thngs-website/
 languageCode: de-de
 title: Hugo Fresh Theme
 theme: hugo-fresh
