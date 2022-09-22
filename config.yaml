@@ -1,6 +1,6 @@
 baseURL: https://informaticore.github.io/thngs-website/
 languageCode: de-de
-title: Hugo Fresh Theme
+title: THNGS.
 theme: hugo-fresh
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
 # Disables warnings
