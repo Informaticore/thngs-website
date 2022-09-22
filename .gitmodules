@@ -1,2 +1,2 @@
 [submodule "themes/hugo-fresh"]
-	url = git@github.com:StefMa/hugo-fresh.git
+	url = https://github.com/StefMa/hugo-fresh.git
