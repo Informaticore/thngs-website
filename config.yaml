@@ -1,10 +1,10 @@
-baseURL: open-things.de
+baseURL: informaticore.github.io/thngs-website/
 languageCode: de-de
 title: THNGS.
 theme: hugo-fresh
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
 # Disables warnings
-canonifyURLs: true
+#canonifyURLs: true
 disableKinds:
 - taxonomy
 - taxonomyTerm
