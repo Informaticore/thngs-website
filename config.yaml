@@ -38,7 +38,8 @@ params:
     # Button text
     buttontext: Keep me posted!
     # Where the main hero button links to
-    buttonlink: https://forms.gle/9qi35Fmpjp2SeMne9
+    buttonlink: /contact
+    # https://forms.gle/9qi35Fmpjp2SeMne9
     # Hero image (from static/images/___)
     image: illustrations/tst_ff_scaled.jpg
     # Footer logos (from static/images/logos/clients/___.svg)
@@ -60,6 +61,8 @@ params:
     #   url: /
     # - title: Trick Tracker
     #   url: /
+  - title: Contact
+    url: /contact
   - title: About Us
     url: /aboutus
 
@@ -140,16 +143,16 @@ params:
     # - link: https://bitbucket.org/#
     #   icon: bitbucket
     bulmalogo: true
-    # quicklinks:
-    #   column1:
-    #     title: "Product"
-    #     links:
-    #     - text: Products
-    #       link: /
-    #     - text: Press
-    #       link: /
-    #     - text: AGB
-    #       link: /agb
+    quicklinks:
+      # column1:
+      #   title: "Product"
+      #   links:
+      #   - text: Products
+      #     link: /
+      #   - text: Press
+      #     link: /
+      #   - text: AGB
+      #     link: /agb
     #   column2:
     #     title: "Docs"
     #     links:
@@ -157,10 +160,10 @@ params:
     #       link: /
     #     - text: How To's
     #       link: /
-      # column3:
+      column3:
       #   title: "Blog"
-      #   links:
-      #   - text: Latest news
-      #     link: /blog/first
+        links:
+        - text: Impressum
+          link: /impressum
       #   - text: Tech articles
       #     link: /blog/second
