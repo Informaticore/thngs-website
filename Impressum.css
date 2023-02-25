@@ -109,4 +109,10 @@
   .u-section-1 .u-image-1 {
     min-height: 391px;
   }
+} .u-section-2 {
+  background-image: none;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 400px;
 }

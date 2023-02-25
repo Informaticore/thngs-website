@@ -18,6 +18,10 @@
   grid-gap: 10px;
 }
 
+.u-section-1 .u-list-item-1 {
+  background-image: none;
+}
+
 .u-section-1 .u-container-layout-1 {
   padding: 30px 30px 29px;
 }
@@ -45,6 +49,10 @@
   background-image: none;
   border-style: none;
   margin: 30px 0 0 auto;
+}
+
+.u-section-1 .u-list-item-2 {
+  background-image: none;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -136,4 +144,10 @@
   .u-section-1 .u-list-1 {
     width: 340px;
   }
+} .u-section-2 {
+  background-image: none;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 400px;
 }
