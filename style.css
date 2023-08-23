@@ -1,42 +1,41 @@
-<style>
-  body {
-    background-color: red;
-    color: white;
-  }
 
-  .container {
-    display: flex;
-    align-items: center;
-    font-family: "Archivo", sans-serif;
-  }
+body {
+  background-color: red;
+  color: white;
+}
 
-  .image {
-    width: 138px;
-    height: 138px;
-  }
+.container {
+  display: flex;
+  align-items: center;
+  font-family: "Archivo", sans-serif;
+}
 
-  .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-left: 10px;
-  }
+.image {
+  width: 138px;
+  height: 138px;
+}
 
-  .title {
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-  }
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 10px;
+}
 
-  .icon {
-    width: 9px;
-    height: 9px;
-    margin-left: 5px;
-  }
+.title {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
 
-  .description {
-    font-size: 14px;
-    margin-top: 5px;
-  }
-</style>
+.icon {
+  width: 9px;
+  height: 9px;
+  margin-left: 5px;
+}
+
+.description {
+  font-size: 14px;
+  margin-top: 5px;
+}
