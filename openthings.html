@@ -31,11 +31,11 @@
 				text-rendering: geometricPrecision;
 				margin: 0;
 				padding: 0;
-				font-size: 14px;
+				font-size: 12px;
 				line-height: 1.5;
 			}
 			h1,h2{
-				font-size: 2em;
+				font-size: 2.2em;
 			}
 			a{
 				color: currentColor;
@@ -51,6 +51,10 @@
 				background-size: 90%;
 				background-position: center;
 				background-repeat: no-repeat;
+				transition: transform .15s ease;
+			}
+			.link:hover:after{
+				transform: translate(.15em,-.15em);
 			}
 			section,
 			footer,
@@ -61,14 +65,14 @@
     		}
     		section{
 				width: 100%;
-				min-height: 90vh;
+				min-height: 60vh;
     		}
     		.wrapper{
-				max-width: 1200px;
-    			align-items: flex-start;
-    			height: 100%;
-    			width: 100%;
-    			padding: 5%;
+				max-width: 1240px;
+				align-items: flex-start;
+				height: 100%;
+				width: 100%;
+				padding: 5% 10%;
 			}
     		section, footer{
 				align-items: center;
@@ -100,15 +104,16 @@
 				position: relative;
 				background: white;
 				color: black;
-				font-weight: 200;
 				background-image: url(assets/img/things-bg.png);
 				background-position: center;
 				background-size: cover;
 				background-repeat: no-repeat;
-
+				min-height: 90vh;
 			}
 			#hero h1{
 			    align-items: center;
+				font-weight: 200;
+				letter-spacing: .05em;
 			}
 			#hero:before{
 				content: '';
@@ -126,20 +131,30 @@
 			#thingsgrid .wrapper{
 				display: grid;
 				grid-template-columns: repeat(3, 1fr);
-				padding: 0;
 
 				display: flex;
 				flex-direction: row;
 				flex-wrap: wrap;
+
+				padding: 5% 5% 0;
 			}
 			.thing{
 				display: flex;
 			    flex-direction: row;
 			    align-items: center;
 			    width: 28em;
+			    margin: 1em;
 			}
 			.thing .title{
-				padding: 5%;
+				padding: 0 5%;
+			}
+			.thing .thing-headline{
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+			.thing .thing-description{
+				margin-top: 0.5em;
+				margin-bottom: 0;
 			}
 			.thing picture{
 				align-self: flex-start;
@@ -183,6 +198,9 @@
 			.thing:hover .brackets:after{
 				right: 0;
 			}
+			.thing:hover .link:after{
+				transform: translate(.15em,-.15em);
+			}
 			.thing-description{
 				white-space: pre-wrap;
 			}
@@ -201,9 +219,14 @@
 				flex-direction: row;
 				flex-wrap: wrap;
 				align-self: baseline;
+				margin-top: 10%;
 			}
 			#quote a{
 				padding: .5em 1.5em .5em 0;
+			}
+			footer .mail.link{
+				padding: .2em 0;
+				border-bottom: .1em solid currentColor;
 			}
 		</style>
 	</head>
@@ -292,7 +315,7 @@
 			<div class="wrapper">
 				<h2><a class="mail link">Get in Touch</a></h2>
 				<div>
-					<p><span class="name">Open Things</span> ist eine eingetragene Marke © Berlin 2023</p>
+					<p>© 2023 <span class="name">Open Things</span>. All rights reserved.</p>
 					<a>Impressum</a>
 					<a>Datenschutz</a>
 				</div>
