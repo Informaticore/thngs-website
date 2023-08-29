@@ -19,6 +19,9 @@ html,body{
 h1,h2{
 	font-size: 2.2em;
 }
+h5{
+	font-size: 1em;
+}
 a{
 	color: currentColor;
 	text-decoration: none;
@@ -95,4 +98,78 @@ footer .copyright{
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+.brackets:before,
+.brackets:after{
+	content: '';
+
+	background-image: url(assets/img/bracket.svg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	position: absolute;
+	height: 80%;
+	width: 30%;
+	top: 10%;
+	left: 5%;
+	transition: left .1s ease-in;
+	z-index: 1;
+}
+.brackets:after{
+    transform: scaleX(-1);
+	left: auto;
+	right: 5%;
+	transition: right .1s ease-in;
+}
+
+
+.thing{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 28em;
+	margin: 1em;
+}
+.thing .title{
+	padding: 0 5%;
+}
+.thing .thing-headline{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.thing .thing-description{
+	margin-top: 0.5em;
+	margin-bottom: 0;
+}
+.thing picture{
+	align-self: flex-start;
+	aspect-ratio: 1;
+	width: 6.5em;
+	height: auto;
+	border: 0;
+	position: relative;
+}
+.thing img{
+	height: 100%;
+	width: 100%;
+}
+.thing:hover .brackets:before{
+	left: 0;
+}
+.thing:hover .brackets:after{
+	right: 0;
+}
+.thing:hover .link:after{
+	transform: translate(.15em,-.15em);
+}
+.thing-description{
+	white-space: pre-wrap;
+}
+
+.cta{
+	font-size: 1.5em;
+	background: #013129;
+	padding: 1em 1.5em;
+	margin-left:auto;
 }

@@ -36,49 +36,7 @@
 
 	padding: 5% 5% 0;
 }
-.thing{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	width: 28em;
-	margin: 1em;
-}
-.thing .title{
-	padding: 0 5%;
-}
-.thing .thing-headline{
-	margin-top: 0;
-	margin-bottom: 0;
-}
-.thing .thing-description{
-	margin-top: 0.5em;
-	margin-bottom: 0;
-}
-.thing picture{
-	align-self: flex-start;
-	aspect-ratio: 1;
-	width: 6.5em;
-	height: 6.5em;
-	background: #fff;
-	border: 0;
-	position: relative;
-}
-.thing img{
-	height: 100%;
-	width: 100%;
-}
-.thing:hover .brackets:before{
-	left: 0;
-}
-.thing:hover .brackets:after{
-	right: 0;
-}
-.thing:hover .link:after{
-	transform: translate(.15em,-.15em);
-}
-.thing-description{
-	white-space: pre-wrap;
-}
+
 #quote{
 	background-image: url(assets/img/particles-bg.png);
 	background-position: center;
