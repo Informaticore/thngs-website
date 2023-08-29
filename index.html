@@ -17,6 +17,7 @@
 
 		<link rel="stylesheet" type="text/css" href="style.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="home.css" media="screen">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	</head>
 	<body class="preload">
 
@@ -106,15 +107,9 @@
 			
 		</main>
 
-		<div id="footer"></div>
+		<div id="footer" onload="this.load('footer.html')"></div>
 
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-		<script>
-				$(function() {
-						$("#footer").load("footer.html");
-				});
-		</script>
-
+		
 
 	</body>
 </html>
