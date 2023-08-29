@@ -16,6 +16,8 @@
 		<meta name="description" content="OPENTHINGS by Mirko Haeberlin is a company focused on creating accessible high quality hardware products solving research needs."/>
 
 		<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+		<script src="includehtml.js"></script>
+
 		<style type="text/css">
 
 			.thing.detail{
@@ -210,13 +212,10 @@
 
 		</main>
 		
-		<div id="footer"></div>
+		<div w3-include-html="footer.html"></div>
 
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 		<script>
-				$(function() {
-						$("#footer").load("footer.html");
-				});
+			includeHTML();
 		</script>
 
 
