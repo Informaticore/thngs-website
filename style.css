@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500&display=swap');
+
+*{
+	box-sizing: border-box;
+	position: relative;
+}
+html,body{
+	font-family: 'Archivo', sans-serif;
+	text-rendering: geometricPrecision;
+	scroll-behavior: smooth;
+	background: black;
+	color: white;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 1.5;
+}
+h1,h2{
+	font-size: 2.2em;
+}
+a{
+	color: currentColor;
+	text-decoration: none;
+}
+img{
+	user-select: none;
+}
+::selection{
+	background: #FAFAFA;
+	color: black;
+}
+.link:after{
+	content: '';
+	display: inline-block;
+	width: .75em;
+	height: .75em;
+	margin-left: .5em;
+	background-image: url(assets/img/arrow.svg);
+	background-size: 90%;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: transform .15s ease;
+}
+.link:hover:after{
+	transform: translate(.15em,-.15em);
+}
+section,
+footer,
+.wrapper{
+	display: flex;
+	justify-content: center;
+    flex-direction: column;
+}
+section{
+	width: 100%;
+	min-height: 60vh;
+}
+.wrapper{
+	max-width: 1240px;
+	align-items: flex-start;
+	height: 100%;
+	width: 100%;
+	padding: 5% 10%;
+}
+section, footer{
+	align-items: center;
+
+}
+footer{
+	background: linear-gradient(141deg, rgba(0, 29, 25, 0.40) 0%, rgba(1, 49, 41, 0.00) 100%), #013129;
+}
+footer .line {
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	width: 100%;
+	gap: 1em;
+}
+footer .copyright{
+	margin-right: auto;
+}
+.name{
+	font-family: 'Archivo Narrow', sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.logo{
+	position: absolute;
+	bottom: 10%;
+	height: 4em;
+	width: 16em;
+	max-width: 60vw;
+	background-image: url(assets/img/Logo-light.svg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}

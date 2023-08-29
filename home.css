@@ -1,0 +1,129 @@
+#hero{
+	position: relative;
+	background: white;
+	color: black;
+	background-image: url(assets/img/things-bg.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 90vh;
+}
+#hero h1{
+	align-items: center;
+	font-weight: 200;
+	letter-spacing: .05em;
+}
+#hero:before{
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0.9;
+	background: radial-gradient(66.71% 66.71% at 50.00% 50.00%, rgba(255, 255, 255, 0.00) 0%, #FFF 62.30%);
+	background-attachment: fixed;
+	z-index: 0;
+	pointer-events: none;
+}
+#thingsgrid .wrapper{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	padding: 5% 5% 0;
+}
+.thing{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 28em;
+    margin: 1em;
+}
+.thing .title{
+	padding: 0 5%;
+}
+.thing .thing-headline{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.thing .thing-description{
+	margin-top: 0.5em;
+	margin-bottom: 0;
+}
+.thing picture{
+	align-self: flex-start;
+	aspect-ratio: 1;
+	width: 6.5em;
+	height: 6.5em;
+	background: #fff;
+	border: 0;
+	position: relative;
+}
+.thing img{
+	height: 100%;
+	width: 100%;
+}
+.brackets:before,
+.brackets:after{
+	content: '';
+
+	background-image: url(assets/img/bracket.svg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	position: absolute;
+	height: 80%;
+	width: 30%;
+	top: 10%;
+	left: 5%;
+	transition: left .1s ease-in;
+	z-index: 1;
+}
+.brackets:after{
+    transform: scaleX(-1);
+	left: auto;
+	right: 5%;
+	transition: right .1s ease-in;
+}
+.thing:hover .brackets:before{
+	left: 0;
+}
+.thing:hover .brackets:after{
+	right: 0;
+}
+.thing:hover .link:after{
+	transform: translate(.15em,-.15em);
+}
+.thing-description{
+	white-space: pre-wrap;
+}
+#quote{
+	background-image: url(assets/img/particles-bg.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#quote h2{
+	max-width: 23em;
+}
+#quote .links{
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-self: baseline;
+	margin-top: 10%;
+	gap: 2em;
+}
+#quote a{
+	padding: .5em 0;
+}
+footer .mail.link{
+	padding: .2em 0;
+	border-bottom: .1em solid currentColor;
+}
