@@ -17,7 +17,8 @@
 
 		<link rel="stylesheet" type="text/css" href="style.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="home.css" media="screen">
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="includehtml.js"></script>
+
 	</head>
 	<body class="preload">
 
@@ -107,8 +108,10 @@
 			
 		</main>
 
-		<div id="footer" onload="$('#footer').load('footer.html')"></div>
+		<div w3-include-html="footer.html"></div>
 
-
+		<script>
+			includeHTML();
+		</script>
 	</body>
 </html>
