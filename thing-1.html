@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>OPEN THINGS</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+		<link rel="manifest" href="assets/favicon/site.webmanifest">
+		<link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#000">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#000000">
+		
+		<meta name="description" content="OPENTHINGS by Mirko Haeberlin is a company focused on creating accessible high quality hardware products solving research needs."/>
+
+		<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+		<style type="text/css">
+
+			.thing.detail{
+			    width: 100%;
+			    margin: 1em;
+			}
+			.thing.detail .thing-headline{
+				font-size: 3.5em;
+				font-weight: 200;
+				width: 6em;
+				line-height: 1.2;
+				letter-spacing: 0.01em;
+			}
+			.thing.detail .thing-description{
+				font-size: 1.5em;
+				padding-left: .2em;
+			}
+			.thing.detail picture{
+				width: 30%;
+				border: 0;
+				position: relative;
+			}
+
+			.specs-card{
+				display: flex;
+				flex-direction: row;
+/*				flex-wrap: wrap;*/
+				background: white;
+				width: 100%;
+				gap: 1em;
+				font-weight: 500;	
+			}
+			.specs-card>*{
+				padding: 5%;
+				margin: 0;
+			}
+			.specs-card img{
+				display: block;
+				width: 20em;
+				height: 100%;
+			}
+			.specs-card ul{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				flex-grow: 1;
+				list-style: none;
+				color: black;
+				border-left: 1px solid #00000022;
+			}
+			.specs-card li{
+				display: grid;
+				grid-template-columns: 1fr 4fr;
+				gap: .5em;
+				padding: .5em;
+			}
+			.specs-card h5,
+			.specs-card p{
+				margin: 0;
+			}
+			.specs-card h5{
+				opacity: .4;
+			}
+
+			#stage{
+				background: linear-gradient(180deg, #E0E0E0 0%, #FFF 70.83%);
+			}
+			#more .wrapper{
+				max-width: 60em;
+			}
+			#continue{
+				min-height: unset;
+			}
+			#continue .wrapper{
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				align-items: center;
+				justify-content: flex-end;
+			}
+			#continue .wrapper:before{
+				content: 'More Things';
+				font-size: 2.2em;
+				margin-right: auto;
+			}
+		</style>
+	</head>
+	<body class="preload">
+
+		<nav>
+			<div class="logo"></div>
+		</nav>
+
+		<main>
+			<section id="hero">
+				<div class="wrapper">
+					<div class="thing detail">
+							<picture class="brackets">
+								<img src="assets/img/things/4.png"/>
+							</picture>
+							<div class="title">
+								<h3 class="thing-headline">Openthing 1 : ESP-CM3</h3>
+								<p class="thing-description">55 x 40 x 4.7 mm</p>
+							</div>
+					</div>
+					<a class="cta link">Order Now</a>
+				</div>
+			</section>
+
+
+			<section id="general">
+				<div class="wrapper">
+					<h2>
+					Openthing 1 ESP-CM3 ist eine leistungsstarke, erschwingliche und zugängliche Alternative zum Raspberry Pi Compute Module 3, die auf dem ESP32-S2-Mikrocontroller basiert. Es verfügt über analoger und digitaler Eingänge sowie Pulsweitenmodulation (PWM)-Ausgänge. Darüber hinaus enthält es 2 GPIO-Expander, die perfekt zu den 45 GPIO-Pins des RPi CM3 passen. Sie sind über I2C verbunden. Der I2C-Kanal kann über Lötpads zwischen I2C-0 und I2C-1 geändert werden.
+					</h2>
+				</div>
+			</section>
+
+
+			<section id="specs">
+				<div class="wrapper">
+					<div class="specs-card">
+						<img src="assets/img/plan.png"/>
+						<ul>
+							<li>
+								<h5 class="title">title</h5>
+								<p class="content">content</p>
+							</li>
+							<li>
+								<h5 class="title">title</h5>
+								<p class="content">content</p>
+							</li>
+							<li>
+								<h5 class="title">title</h5>
+								<p class="content">kann verschiedene Betriebssysteme ausführen  oder direkt auf dem Mikrocontroller benutzerdefinierten Code ausführen</p>
+							</li>
+							<li>
+								<h5 class="title">title</h5>
+								<p class="content">content</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+
+			<section id="more">
+				<div class="wrapper">
+					<h5>Open Source</h5>
+					<p>
+						Die Hardware des Openthing 1 ESP-CM3 ist vollständig Open Source und OSHWA-zertifiziert. Sie können Dateien wie Schaltpläne, Leiterplattenlayouts, Projektdateien, Software zum Testen des Moduls, Stücklisten usw. in unserem GitHub-Repository finden.
+						<br><br>
+						Das Gerät wird ohne Firmware oder Software geliefert. Der Openthing 1 ESP-CM3 kann verschiedene Betriebssysteme wie Zephyr oder Micropython ausführen, die einfach zu verwenden sind. Wir empfehlen Toit als RTOS für das Modul
+					</p>
+					<a href="github.com" class="link">Git Hub Repository</a>
+				</div>
+			</section>
+
+
+			<section id="stage">
+				<div class="wrapper">
+					<img src="assets/img/device-studio-cut.png"/>
+					<p></p>
+					<a class="cta link">Order Now</a>
+				</div>
+			</section>
+
+
+			<section id="continue">
+				<div class="wrapper">
+					<a class="thing" href="thing-4.html">
+						<picture class="brackets">
+							<img src="assets/img/things/4.png"/>
+						</picture>
+						<div class="title">
+							<h3 class="thing-headline link">Openthing 3 : RiverWatch</h3>
+							<p class="thing-description">Hochpräziser Sensor zur Überwachung des Wasserspiegels durch Druckmessung</p>
+						</div>
+					</a>
+					<a class="thing" href="thing-5.html">
+						<picture class="brackets">
+							<img src="assets/img/things/5.png"/>
+						</picture>
+						<div class="title">
+							<h3 class="thing-headline link">Openthing 4 : ClimArray</h3>
+							<p class="thing-description">Sensor-Array zur Überwachung des Mikroklimas in einem begrenzten Bereich</p>
+						</div>
+					</a>
+				</div>
+			</section>
+
+
+		</main>
+		<footer>
+			<div class="wrapper">
+				<h2><a class="mail link" href="mailto:hello@open-things.de">Get in Touch</a></h2>
+				<div class="line">
+					<p class="copyright">© 2023 <span class="name">Open Things</span>. All rights reserved. Designed in Berlin.</p>
+					<a href="imprint.html">Impressum</a>
+					<a href="dataprotection.html">Datenschutz</a>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+</html>
