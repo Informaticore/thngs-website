@@ -73,7 +73,22 @@
 .stage{
 	background: linear-gradient(180deg, #E0E0E0 0%, #FFF 70.83%);
 }
-
+.stage .wrapper{
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.stage h3{
+	color: black;
+}
+.salesclaim{
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	gap: 2em;
+	width: 25em;
+	height: 100%;
+	text-align: right;
+}
 .wrapper.more.programme{
 	background: #013129;
 }
