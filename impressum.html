@@ -22,133 +22,27 @@
   <script src="includehtml.js"></script>
 
   <style type="text/css">
-    .thing.detail {
-      width: 100%;
-      margin: 1em;
-    }
-
-    .thing.detail .thing-headline {
-      font-size: 3.5em;
-      font-weight: 200;
-      width: 6em;
-      line-height: 1.2;
-      letter-spacing: 0.01em;
-    }
-
-    .thing.detail .thing-description {
-      font-size: 1.5em;
-      padding-left: .2em;
-    }
-
-    .thing.detail picture {
-      width: 30%;
-      border: 0;
-      position: relative;
-    }
-
-    .specs-card {
-      display: flex;
-      flex-direction: row;
-      /*				flex-wrap: wrap;*/
-      background: white;
-      width: 100%;
-      gap: 1em;
-      font-weight: 500;
-    }
-
-    .specs-card>* {
-      padding: 5%;
-      margin: 0;
-    }
-
-    .specs-card img {
-      display: block;
-      width: 20em;
-      height: 100%;
-    }
-
-    .specs-card ul {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      flex-grow: 1;
-      list-style: none;
-      color: black;
-      border-left: 1px solid #00000022;
-    }
-
-    .specs-card li {
-      display: grid;
-      grid-template-columns: 1fr 4fr;
-      gap: .5em;
-      padding: .5em;
-    }
-
-    .specs-card h5,
-    .specs-card p {
-      margin: 0;
-    }
-
-    .specs-card h5 {
-      opacity: .4;
-    }
-
-    #stage {
-      background: linear-gradient(180deg, #E0E0E0 0%, #FFF 70.83%);
-    }
-
-    #more .wrapper {
-      max-width: 60em;
-    }
-
-    #continue {
-      min-height: unset;
-    }
-
-    #continue .wrapper {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: flex-end;
-    }
-
-    #continue .wrapper:before {
-      content: 'More Things';
-      font-size: 2.2em;
-      margin-right: auto;
+    .mandatory main{
+      padding-top: 10%;
     }
   </style>
+
 </head>
 
-<body class="preload">
-
+<body class="preload mandatory">
 
   <main>
     <section id="specs">
       <div class="wrapper">
-        <div class="specs-card">
-          <ul>
-            <li>
-              <h5 class="title">Name</h5>
-              <p class="content">Mirko Häberlin</p>
-            </li>
-            <li>
-              <h5 class="title">Unternehmen</h5>
-              <p class="content">Einzelunternehmen mit Kleinunternehmerregelung </p>
-            </li>
-            <li>
-              <h5 class="title">Straße</h5>
-              <p class="content">Kiefholzstr. 403a</p>
-            </li>
-            <li>
-              <h5 class="title">PLZ</h5>
-              <p class="content">12435 Berlin - DE</p>
-            </li>
-          </ul>
+        <div class="paragraph">
+          <h3 class="title">Impressum</h3>
+          <p class="content">Mirko Häberlin</p>
+          <p class="content">Einzelunternehmen mit Kleinunternehmerregelung </p>
+          <p class="content">Kiefholzstr. 403a</p>
+          <p class="content">12435 Berlin - DE</p>
         </div>
-        <div>
-          <h5 class="title">Haftungsausschluss</h5>
+        <div class="paragraph">
+          <h3 class="title">Haftungsausschluss</h3>
           <p class="content">Die Informationen auf dieser Webseite dienen ausschließlich zu Informationszwecken. Obwohl
             wir uns bemühen, genaue und aktuelle Informationen bereitzustellen, übernehmen wir keine Gewähr für die
             Richtigkeit, Vollständigkeit oder Aktualität der bereitgestellten Informationen. Haftungsansprüche gegen
@@ -157,17 +51,17 @@
             Informationen verursacht wurden, sind grundsätzlich ausgeschlossen, sofern von unserer Seite kein
             nachweislich vorsätzliches oder grob fahrlässiges Verschulden vorliegt.</p>
         </div>
-        <div>
-          <h5 class="title">Urheberrecht</h5>
+        <div class="paragraph">
+          <h3 class="title">Urheberrecht</h3>
           <p class="content">Die durch uns erstellten Inhalte und Werke auf dieser Webseite unterliegen dem deutschen
             Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der
             Grenzen des Urheberrechts bedürfen unserer schriftlichen Zustimmung. Downloads und Kopien dieser Seite sind
             nur für den privaten, nicht kommerziellen Gebrauch gestattet.</p>
         </div>
-        <div>
-          <h5 class="title">Datenschutz</h5>
+        <div class="paragraph">
+          <h3 class="title">Datenschutz</h3>
           <p class="content">Informationen zum Umgang mit personenbezogenen Daten finden Sie in unserer
-            Datenschutzerklärung.</p>
+          <a class="link" href="impressum.html">Datenschutzerklärung</a></p>
         </div>
       </div>
     </section>

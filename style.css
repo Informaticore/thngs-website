@@ -66,6 +66,11 @@ section{
 	width: 100%;
 	padding: 5% 10%;
 }
+.paragraph{
+	max-width: 45em;
+	padding: 5% 0;
+}
+
 section, footer{
 	align-items: center;
 
@@ -96,6 +101,7 @@ nav .logo{
 }
 
 footer,
+.mandatory{
 	background: linear-gradient(141deg, rgba(0, 29, 25, 0.40) 0%, rgba(1, 49, 41, 0.00) 100%), #013129;
 }
 footer .line {
