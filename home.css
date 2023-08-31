@@ -26,6 +26,18 @@
 	z-index: 0;
 	pointer-events: none;
 }
+.logo{
+	position: absolute;
+	bottom: 10%;
+	height: 4em;
+	width: 16em;
+	max-width: 60vw;
+	background-image: url(assets/img/Logo-light.svg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 #thingsgrid .wrapper{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
