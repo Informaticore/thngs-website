@@ -19,6 +19,9 @@ html,body{
 h1,h2{
 	font-size: 2.2em;
 }
+h3{
+	font-size: 1.5em;
+}
 h5{
 	font-size: 1em;
 }
@@ -60,11 +63,14 @@ section{
 	min-height: 60vh;
 }
 .wrapper{
-	max-width: 1240px;
+	max-width: 1500px;
 	align-items: flex-start;
 	height: 100%;
 	width: 100%;
-	padding: 5% 10%;
+	padding: 5rem 10rem;
+}
+.wrapper img{
+	max-width: 100%;
 }
 .paragraph{
 	max-width: 45em;
@@ -75,7 +81,6 @@ section, footer{
 	align-items: center;
 
 }
-footer{
 nav{
 	display: flex;
     align-items: center;
@@ -150,8 +155,6 @@ footer .copyright{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	width: 28em;
-	margin: 1em;
 }
 .thing .title{
 	padding: 0 5%;
@@ -176,10 +179,10 @@ footer .copyright{
 	height: 100%;
 	width: 100%;
 }
-.thing:hover .brackets:before{
+#thingsgrid .thing:hover .brackets:before{
 	left: 0;
 }
-.thing:hover .brackets:after{
+#thingsgrid .thing:hover .brackets:after{
 	right: 0;
 }
 .thing:hover .link:after{
