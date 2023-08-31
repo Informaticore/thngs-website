@@ -132,8 +132,7 @@ footer .mail.link{
 .brackets:before,
 .brackets:after{
 	content: '';
-
-	background-image: url(assets/img/bracket.svg);
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='90' viewBox='0 0 25 90' fill='none'%3E%3Cpath d='M24.6956 1C12.5251 1 4.36159 9.48982 2.77229 21.5561C1.79856 28.9489 1 37.3826 1 45.16C1 52.9373 1.79856 61.371 2.77229 68.7638C4.36159 80.8301 12.5251 89.3199 24.6956 89.3199' stroke='white' stroke-linecap='square' stroke-width='1.2'/%3E%3C/svg%3E");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
