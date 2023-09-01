@@ -9,7 +9,7 @@
 	min-height: 90vh;
 }
 #hero h1{
-	align-items: center;
+	text-align: center;
 	font-weight: 200;
 	letter-spacing: .05em;
 }
