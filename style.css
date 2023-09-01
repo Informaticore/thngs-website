@@ -205,7 +205,12 @@ footer .mail.link{
 	font-size: 1.5em;
 	background: #013129;
 	padding: 1em 1.5em;
+}
+.cta.right{
 	margin-left: auto;
+}
+.cta.left{
+	margin-right: auto;
 }
 .cta:hover{
 	background: rgb(0, 29, 25);
