@@ -112,6 +112,6 @@
 }
 #continue .wrapper:before{
 	content: 'More Things';
-	font-size: 2.2em;
+	font-size: 1.5em;
 	margin-right: auto;
 }
