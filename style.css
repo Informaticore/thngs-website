@@ -188,10 +188,10 @@ footer .mail.link{
 	height: 100%;
 	width: 100%;
 }
-#thingsgrid .thing:hover .brackets:before{
+.thingsgrid .thing:hover .brackets:before{
 	left: 0;
 }
-#thingsgrid .thing:hover .brackets:after{
+.thingsgrid .thing:hover .brackets:after{
 	right: 0;
 }
 .thing:hover .link:after{
