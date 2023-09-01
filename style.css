@@ -97,10 +97,11 @@ nav{
     margin: 0 auto;
     z-index: 1;
 	max-width: 1500px;
+	padding: .5em 1em;
 }
 nav .logo{
 	height: 3em;
-	width: 16em;
+	width: 13em;
 	background-image: url(assets/img/Logo-dark.svg);
 	background-size: contain;
 	background-position: center;
