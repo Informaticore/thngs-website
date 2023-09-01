@@ -14,6 +14,7 @@ html,body{
 	margin: 0;
 	padding: 0;
 	font-size: 14px;
+/*	font-size: 3vw;*/
 	line-height: 1.5;
 	letter-spacing: .015em;
 }
@@ -217,8 +218,30 @@ footer .mail.link{
 	background: rgb(0, 29, 25);
 }
 
+.appear{
+	opacity: 0;
+}
+.fadeIn{
+	opacity: 0;
+	animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
 @media(max-width:1200px){
 	nav .logo {
 		width: 3.2em;
+	}
+}
+@media(min:1200px){
+	html,body{
+		font-size: 2vw;
 	}
 }
