@@ -21,7 +21,7 @@
 	top: 0;
 	left: 0;
 	opacity: 0.9;
-	background: radial-gradient(66.71% 66.71% at 50.00% 50.00%, rgba(255, 255, 255, 0.00) 0%, #FFF 62.30%);
+	background: radial-gradient(66.71% 66.71% at 50.00% 50.00%, rgba(255, 255, 255, 0.00) 0%,  rgba(255, 255, 255, 0.6) 70%);
 	background-attachment: fixed;
 	z-index: 0;
 	pointer-events: none;
@@ -76,4 +76,11 @@
 }
 #quote a{
 	padding: .5em 0;
+}
+
+
+@media(max-width:700px){ /* mobile  */
+	#hero:before{
+		background: radial-gradient(66.71% 66.71% at 50.00% 50.00%, rgba(255, 255, 255, 0.00) 0%,  rgba(255, 255, 255, 0.6) 80%);
+	}
 }
