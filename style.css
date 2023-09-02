@@ -280,9 +280,13 @@ footer .mail.link{
 	section:not(#hero){
 		min-height: unset;
 	}
+	nav{
+		height: auto;
+		padding: 0;
+	}
 	.wrapper{
 		gap: 1em;
-		padding: 10% 5%;
+		padding: 10%;
 	}
 	.wrapper.thingsgrid{
 		gap: 2em !important;
@@ -293,7 +297,7 @@ footer .mail.link{
 		align-items: unset;
 	}
 	.thing{
-		gap: 1em;
+		gap: .5em;
 	}
 	#hero .thing.detail {
 		flex-direction: column;
