@@ -129,7 +129,7 @@ footer,
 }
 footer .line {
 	display: flex;
-	align-items: center;
+    align-items: baseline;
 	justify-content: right;
 	width: 100%;
 	gap: 1em;
@@ -286,6 +286,10 @@ footer .mail.link{
 	.wrapper.thingsgrid{
 		gap: 2em !important;
 		justify-content: unset !important;
+	}
+	.line{
+		flex-direction: column;
+		align-items: unset;
 	}
 	.thing{
 		gap: 1em;
