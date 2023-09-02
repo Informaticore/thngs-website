@@ -7,8 +7,11 @@
 }
 html,body{
 	font-family: 'Archivo', sans-serif;
-	text-rendering: geometricPrecision;
-	scroll-behavior: smooth;
+
+    scroll-behavior: smooth;
+     -webkit-font-smoothing: subpixel-antialiased !important; 
+    text-rendering: optimizeLegibility !important;
+
 	background: black;
 	color: white;
 	margin: 0;

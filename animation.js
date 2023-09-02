@@ -23,8 +23,8 @@ function handleScroll() {
     const elements = document.querySelectorAll('.appear');
     elements.forEach((element) => {
         if (isInViewport(element)) {
-  element.classList.remove('appear');
-  element.classList.add('fadeIn');
+            element.classList.remove('appear');
+            element.classList.add('fadeIn');
         }
     });
 }
