@@ -19,9 +19,17 @@ html,body{
 	font-size: 14px;
 	line-height: 1.5;
 	letter-spacing: .015em;
+
+	overflow-x: hidden;
 }
 p,a,h1,h2,h3,h4,h5{
 	max-width: 32em;
+}
+h1,h2,h3,h4{
+	font-weight: 500;
+}
+h5,p,a,span{
+	font-weight: 400;
 }
 h1,h2{
 	font-size: 2.2em;
@@ -70,7 +78,6 @@ section{
 	min-height: 60vh;
 }
 .wrapper{
-	max-width: 1500px;
 	max-width: 1280px;
 	align-items: flex-start;
 	height: 100%;
@@ -240,13 +247,56 @@ footer .mail.link{
 	}
 }
 
-@media(max-width:1200px){
+@media(max-width:1280px){
 	nav .logo {
 		width: 3.2em;
 	}
 }
-@media(min:1200px){
+
+@media(min-width:1700px){
 	html,body{
-		font-size: 2vw;
+		font-size: 1.165vw;
+	}
+	.wrapper{
+		max-width: unset;
+	}
+}
+
+@media(max-width:700px){ /* mobile  */
+	h1,h2{
+		font-size: 1.75em;
+	}
+	h3{
+		font-size: 1.5em;
+	}
+	h5{
+		font-size: 1em;
+	}
+	a{
+		color: currentColor;
+		text-decoration: none;
+	}
+	section:not(#hero){
+		min-height: unset;
+	}
+	.wrapper{
+		gap: 1em;
+		padding: 10% 5%;
+	}
+	.wrapper.thingsgrid{
+		gap: 2em !important;
+		justify-content: unset !important;
+	}
+	.thing{
+		gap: 1em;
+	}
+	#hero .thing.detail {
+		flex-direction: column;
+		align-items: baseline;
+		margin-bottom: 2em;
+		gap: 2em;
+	}
+	.cta{
+		margin: unset !important;
 	}
 }
