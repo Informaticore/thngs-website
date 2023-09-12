@@ -298,8 +298,8 @@ footer .mail.link{
 	}
 	.thing{
 		gap: .5em;
-		width: unset;
-		min-width: unset;
+		width: unset !important;
+		min-width: unset !important;
 	}
 	#hero .thing.detail {
 		flex-direction: column;
