@@ -188,7 +188,7 @@ footer .mail.link{
 	margin-bottom: 0;
 }
 .thing .thing-description{
-	margin-top: 0.5em;
+	margin-top: 0.25em;
 	margin-bottom: 0;
 }
 .thing picture{
@@ -298,6 +298,8 @@ footer .mail.link{
 	}
 	.thing{
 		gap: .5em;
+		width: unset;
+		min-width: unset;
 	}
 	#hero .thing.detail {
 		flex-direction: column;
