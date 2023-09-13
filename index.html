@@ -27,12 +27,11 @@
 
 	<main>
 		<a href="#grid">
-			<section id="hero">
-				<h1>Accessible Research Technology</h1>
+			<section id="hero" >
+				<h1 data-translatekey="main_title"></h1>
 				<div class="logo"></div>
 			</section>
 		</a>
-
 
 		<section id="grid">
 			<div class="wrapper thingsgrid">
@@ -41,8 +40,8 @@
 						<img src="assets/img/things/questionmark.png" />
 					</picture>
 					<div class="title">
-						<h3 class="thing-headline link">Custom</h3>
-						<p class="thing-description">Maßgeschneiderte Lösungen für individuelle Technologie-Bedürfnisse</p>
+						<h3 class="thing-headline link" data-translatekey="card_title_custom"></h3>
+						<p class="thing-description" data-translatekey="card_description_custom"></p>
 					</div>
 				</a>
 				<a class="thing appear" href="thing-0.html">
@@ -50,8 +49,8 @@
 						<img src="assets/img/things/0.png" />
 					</picture>
 					<div class="title">
-						<h3 class="thing-headline link">Thread Sensor Tag</h3>
-						<p class="thing-description">Extrem langlebiger Sensor für Temperatur, Druck, Luftfeuchtigkeit und Licht</p>
+						<h3 class="thing-headline link" data-translatekey="card_title_thing0"></h3>
+						<p class="thing-description" data-translatekey="card_description_thing0"></p>
 					</div>
 				</a>
 				<a class="thing appear" href="thing-1.html">
@@ -59,8 +58,8 @@
 						<img src="assets/img/things/1.png" />
 					</picture>
 					<div class="title">
-						<h3 class="thing-headline link">Openthing 1 : ESP-CM3</h3>
-						<p class="thing-description">ESP32-S2 Compute Modul als Ersatz für das Raspberry Pi Compute Module</p>
+						<h3 class="thing-headline link" data-translatekey="card_title_thing1"></h3>
+						<p class="thing-description" data-translatekey="card_description_thing1"></p>
 					</div>
 				</a>
 				<a class="thing appear" href="thing-2.html">
@@ -68,8 +67,8 @@
 						<img src="assets/img/things/2.png" />
 					</picture>
 					<div class="title">
-						<h3 class="thing-headline link">Openthing 2 : RepTrap</h3>
-						<p class="thing-description">Ein auf Distanzmessung basierender Sensor als Kameraauslöser</p>
+						<h3 class="thing-headline link" data-translatekey="card_title_thing2"></h3>
+						<p class="thing-description" data-translatekey="card_description_thing2"></p>
 					</div>
 				</a>
 				<a class="thing appear" href="thing-3.html">
@@ -77,8 +76,8 @@
 						<img src="assets/img/things/3.png" />
 					</picture>
 					<div class="title">
-						<h3 class="thing-headline link">Openthing 3 : RiverWatch</h3>
-						<p class="thing-description">Hochpräziser Sensor zur Überwachung des Wasserspiegels durch Druckmessung</p>
+						<h3 class="thing-headline link" data-translatekey="card_title_thing3"></h3>
+						<p class="thing-description" data-translatekey="card_description_thing3"></p>
 					</div>
 				</a>
 				<a class="thing appear" href="thing-4.html">
@@ -86,8 +85,8 @@
 						<img src="assets/img/things/4.png" />
 					</picture>
 					<div class="title">
-						<h3 class="thing-headline link">Openthing 4 : ClimateArray</h3>
-						<p class="thing-description">Sensor-Array zur Überwachung des Mikroklimas in einem begrenzten Bereich</p>
+						<h3 class="thing-headline link" data-translatekey="card_title_thing4"></h3>
+						<p class="thing-description" data-translatekey="card_description_thing4"></p>
 					</div>
 				</a>
 			</div>
@@ -95,13 +94,11 @@
 
 		<section id="quote">
 			<div class="wrapper">
-				<h2 class="appear">It's simple: I love technology but hate it, when companies shut down their support for perfectly good
-					products. That's why I created <span class="companyname"></span>. Affordable, industry grade quality tech
-					with open software: So you could run your things forever.</h2>
+				<h2 class="appear" data-translatekey="quote_text"></h2>
 				<p class="appear">Mirko Haeberlin - Founder of <span class="companyname"></span></p>
 				<div class="links appear">
-					<a href="about.html#research" class="link">Openthings & Research</a>
-					<a href="about.html#opensource" class="link">Open Source Approach</a>
+					<a href="about.html#research" class="link" data-translatekey="research_link"></a>
+					<a href="about.html#opensource" class="link" data-translatekey="opensource_link"></a>
 				</div>
 			</div>
 		</section>
@@ -112,6 +109,8 @@
 	<footer w3-include-html="footer.html"></footer>
 	<script src="includehtml.js"></script>
 	<script src="animation.js"></script>
+	<script src="tinyi18n.js"></script>
+
 </body>
 
 </html>
