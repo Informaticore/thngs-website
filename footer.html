@@ -11,17 +11,19 @@
 
 <script src="tinyi18n.js"></script>
 <script>
-  window.onload = function() {
+  window.onload = function () {
     var delink = document.getElementById("de_link");
     delink.onclick = function() {
+      event.preventDefault();
+      console.log('Klick auf Deutsch');
       tinyi18n.setLang('de-DE');
-      return false;
     }
-    
+
     var enlink = document.getElementById("en_link");
     enlink.onclick = function() {
+      event.preventDefault();
+      console.log('Klick auf Englisch');
       tinyi18n.setLang('en-EN');
-      return false;
     }
   }   
 </script>
