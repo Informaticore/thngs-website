@@ -2,7 +2,25 @@
   <h2><a class="mail link" href="mailto:info@open-things.de">Get in Touch</a></h2>
   <div class="line">
     <p class="copyright">© 2023 <span class="name">Open Things</span>. All rights reserved. Designed in Berlin.</p>
-    <a href="impressum.html">Impressum</a>
-    <a href="privacy-policy.html">Datenschutz</a>
+    <a id="de_link" href="">DE</a>
+    <a id="en_link" href="">EN</a>
+    <a href="impressum.html" data-translatekey="impressum_link"></a>
+    <a href="privacy-policy.html" data-translatekey="data_security_link"></a>
   </div>
 </div>
+
+<script src="tinyi18n.js"></script>
+<script>
+  window.onload = function() {
+    var delink = document.getElementById("de_link");
+    delink.onclick = function() {
+      tinyi18n.setLang('de-DE');
+      return false;
+    }
+    var enlink = document.getElementById("en_link");
+    enlink.onclick = function() {
+      tinyi18n.setLang('en-EN');
+      return false;
+    }
+  }   
+</script>

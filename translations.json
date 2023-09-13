@@ -18,8 +18,8 @@
 			"de-DE": "Es ist einfach: Ich liebe Technologie, aber ich hasse es, wenn Unternehmen ihre Unterstützung für einwandfreie Produkte einstellen. Deshalb habe ich Open Things gegründet. Erschwingliche, industriequalitative Technologie mit Open-Source-Software: Damit du deine Dinge für immer betreiben kannst."
 		},
 		"quote_author": {
-			"en-EN": "Mirko Haeberlin - Founder of Open Things",
-			"de-DE": "Mirko Haeberlin - Gründer von Offene Dinge"
+			"en-EN": "Mirko Haeberlin - Founder of OPEN THINGS",
+			"de-DE": "Mirko Haeberlin - Gründer von OPEN THINGS"
 		},
 		"research_link": {
 			"en-EN": "Openthings & Research",
@@ -28,6 +28,14 @@
 		"opensource_link": {
 			"en-EN": "Open Source Approach",
 			"de-DE": "Open-Source-Ansatz"
+		},
+		"impressum_link": {
+			"en-EN": "Imprint",
+			"de-DE": "Impressum"
+		},
+		"data_security_link": {
+			"en-EN": "Data Security",
+			"de-DE": "Datenschutz"
 		},
 		"card_title_custom": {
 			"en-EN": "Custom",
