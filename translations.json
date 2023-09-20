@@ -84,6 +84,62 @@
 		"card_description_thing4": {
 			"en-EN": "Sensor array for monitoring the microclimate in a limited area",
 			"de-DE": "Sensor-Array zur Überwachung des Mikroklimas in einem begrenzten Bereich"
+		},
+		"order_now": {
+			"en-EN": "Order now",
+			"de-DE": "Jetzt bestellen"
+		},
+		"thing0_general_short_description": {
+			"en-EN": "Extremely durable sensor for temperature, pressure, humidity and light for your Open Thread network by Google.",
+			"de-DE": "Extrem langlebiger Sensor für Temperatur, Druck, Luftfeuchtigkeit und Licht für dein Open-Thread Netzwerk von Google."
+		},
+		"thing0_dimensions_label": {
+			"en-EN": "Dimensions",
+			"de-DE": "Maße"
+		},
+		"thing0_processor_label": {
+			"en-EN": "Processor",
+			"de-DE": "Prozessor"
+		},
+		"thing0_sensors_label": {
+			"en-EN": "Sensors",
+			"de-DE": "Sensoren"
+		},
+		"thing0_sensors_desc": {
+			"en-EN": "Pressure, temperature, humidity, light",
+			"de-DE": "Luftdruck, Temperatur, Luftfeuchtigkeit, Licht"
+		},
+		"thing0_network_label": {
+			"en-EN": "Network",
+			"de-DE": "Netzwerk"
+		},
+		"thing0_power_consumption_label": {
+			"en-EN": "Power consumption",
+			"de-DE": "Stromverbrauch"
+		},
+		"thing0_battery_label": {
+			"en-EN": "Battery",
+			"de-DE": "Batterie"
+		},
+		"thing0_battery_lifetime_label": {
+			"en-EN": "Battery lifetime",
+			"de-DE": "Batterielaufzeit"
+		},
+		"thing0_battery_lifetime_desc": {
+			"en-EN": "~2.5 years",
+			"de-DE": "~2.5 Jahre"
+		},
+		"thing0_big_description": {
+			"de-DE": "Der Thread Sensor Tag ist ein sehr kompakter low power Sensor, der Druck, Temperatur, Luftfeuchtigkeit und Helligkeit messen kann und alle 20 Sekunden ins OpenThread Netzwerk versendet. Sein geringer Stromverbrauch erlaubt eine Laufzeit von 3 Jahren mit nur einer Knopfzellenbatterie. Das 3D-gedruckte Gehäuse lässt sich problemlos auf unterschiedlichsten Oberflächen anbringen. </br></br>Bei diesem Open-source Projekt geht es uns darum, die innovative Thread Netzwerktechnologie zugänglicher zu machen, da wir in dieser Technologie ein grosses Potential für die Vernetzung von smarten Produkten sehen. OpenThread ist derzeit noch nicht überall verfügbar, ist aber die Zukunft. Geräte von Apple und Google sind werden dafür vorbereitet, sich in Zukunft über diese sichere und stromsparende IPv6 basierende Mesh-Netzwerktechnologie miteinander zu „unterhalten“.",
+			"en-EN": "The Thread Sensor Tag is a very compact low power sensor that can measure pressure, temperature, humidity and brightness and sends it to the OpenThread network every 20 seconds. Its low power consumption allows a runtime of 3 years with just one button cell battery. The 3D printed housing can be easily attached to a wide variety of surfaces. </br></br>With this open-source project, we want to make the innovative Thread network technology more accessible, as we see great potential for the networking of smart products in this technology. OpenThread is not yet available everywhere, but it is the future. Devices from Apple and Google are being prepared to communicate with each other via this secure and energy-saving IPv6-based mesh network technology in the future."
+		},
+		"thing0_short_claim": {
+			"en-EN": "Compact, energy efficient and innovative. Your connection </br>to the future of networking </br>of smart products",
+			"de-DE": "Kompakt, energieeffizient und innovativ. Ihre Verbindung </br>zur Zukunft der Vernetzung </br>von smarten Produkten"
+		},
+		"github_repository_link": {
+			"en-EN": "Git Hub Repository",
+			"de-DE": "Git Hub Repository"
 		}
 	}
 }
