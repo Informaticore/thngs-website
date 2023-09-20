@@ -45,43 +45,43 @@
 			"en-EN": "Custom solutions for individual technology needs",
 			"de-DE": "Maßgeschneiderte Lösungen für individuelle Technologie-Bedürfnisse"
 		},
-		"card_title_thing0":{
+		"card_title_thing0": {
 			"en-EN": "Thread Sensor Tag",
 			"de-DE": "Thread Sensor Tag"
 		},
-		"card_description_thing0":{
+		"card_description_thing0": {
 			"en-EN": "Extremely durable sensor for temperature, pressure, humidity and light",
 			"de-DE": "Extrem langlebiger Sensor für Temperatur, Druck, Luftfeuchtigkeit und Licht"
 		},
-		"card_title_thing1":{
+		"card_title_thing1": {
 			"en-EN": "Openthing 1 : ESP-CM3",
 			"de-DE": "Openthing 1 : ESP-CM3"
 		},
-		"card_description_thing1":{
+		"card_description_thing1": {
 			"en-EN": "ESP32-S2 Compute Module as a replacement for the Raspberry Pi Compute Module",
 			"de-DE": "ESP32-S2 Compute Modul als Ersatz für das Raspberry Pi Compute Module"
 		},
-		"card_title_thing2":{
+		"card_title_thing2": {
 			"en-EN": "Openthing 2 : RepTrap",
 			"de-DE": "Openthing 2 : RepTrap"
 		},
-		"card_description_thing2":{
+		"card_description_thing2": {
 			"en-EN": "A distance measurement based sensor as a camera trigger",
 			"de-DE": "Ein auf Distanzmessung basierender Sensor als Kameraauslöser"
 		},
-		"card_title_thing3":{
+		"card_title_thing3": {
 			"en-EN": "Openthing 3 : RiverWatch",
 			"de-DE": "Openthing 3 : RiverWatch"
 		},
-		"card_description_thing3":{
+		"card_description_thing3": {
 			"en-EN": "A high precision water level sensor based on pressure measurement",
 			"de-DE": "Hochpräziser Sensor zur Überwachung des Wasserspiegels durch Druckmessung"
 		},
-		"card_title_thing4":{
+		"card_title_thing4": {
 			"en-EN": "Openthing 4 : ClimateArray",
 			"de-DE": "Openthing 4 : ClimateArray"
 		},
-		"card_description_thing4":{
+		"card_description_thing4": {
 			"en-EN": "Sensor array for monitoring the microclimate in a limited area",
 			"de-DE": "Sensor-Array zur Überwachung des Mikroklimas in einem begrenzten Bereich"
 		}
