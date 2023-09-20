@@ -55,4 +55,12 @@ let tinyi18n = {
 	}
 }
 
+function delink() {
+	tinyi18n.setLang("de-DE");
+}
+
+function enlink() {
+	tinyi18n.setLang("en-EN");
+}
+
 tinyi18n.loadTranslations('translations.json')
