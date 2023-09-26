@@ -47,6 +47,10 @@ let tinyi18n = {
 					userLang = 'en-EN'
 				}
 				tinyi18n._current_language = userLang
+				const globalLang = localStorage.getItem("lang")
+				if (globalLang != null) {
+					tinyi18n._current_language = globalLang
+				}
 				tinyi18n.setLang(tinyi18n._current_language)
 			}
 		}
@@ -56,10 +60,12 @@ let tinyi18n = {
 }
 
 function delink() {
+	localStorage.setItem("lang", "de-DE");
 	tinyi18n.setLang("de-DE");
 }
 
 function enlink() {
+	localStorage.setItem("lang", "en-EN");
 	tinyi18n.setLang("en-EN");
 }
 
