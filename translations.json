@@ -14,8 +14,8 @@
 			"de-DE": "Accessible Research Technology"
 		},
 		"quote_text": {
-			"en-EN": "It's simple: I love technology but hate it, when companies shut down their support for perfectly goodproducts. That's why I created <span class='companyname'></span>. Affordable, industry grade quality tech with open software: So you could run your things forever.",
-			"de-DE": "Es ist einfach: Ich liebe Technologie, aber ich hasse es, wenn Unternehmen ihre Unterstützung für einwandfreie Produkte einstellen. Deshalb habe ich Open Things gegründet. Erschwingliche, industriequalitative Technologie mit Open-Source-Software: Damit du deine Dinge für immer betreiben kannst."
+			"en-EN": "It's simple: I love technology but hate it, when companies shut down their support for perfectly goodproducts. That's why I created <span class='companyname'></span>. Affordable quality tech with open software: So you could run your things forever.",
+			"de-DE": "Es ist einfach: Ich liebe Technologie, aber ich hasse es, wenn Unternehmen ihre Unterstützung für einwandfreie Produkte einstellen. Deshalb habe ich Open Things gegründet. Erschwingliche Technologie mit Open-Source-Software: Damit du deine Dinge für immer betreiben kannst."
 		},
 		"quote_author": {
 			"en-EN": "Mirko Haeberlin - Founder of OPEN THINGS",
@@ -23,7 +23,7 @@
 		},
 		"research_link": {
 			"en-EN": "Openthings & Research",
-			"de-DE": "Offene Dinge & Forschung"
+			"de-DE": "Openthings & Forschung"
 		},
 		"opensource_link": {
 			"en-EN": "Open Source Approach",
@@ -134,8 +134,8 @@
 			"de-DE": "~2.5 Jahre"
 		},
 		"thing0_big_description": {
-			"de-DE": "Der Thread Sensor Tag ist ein sehr kompakter low power Sensor, der Druck, Temperatur, Luftfeuchtigkeit und Helligkeit messen kann und alle 20 Sekunden ins OpenThread Netzwerk versendet. Sein geringer Stromverbrauch erlaubt eine Laufzeit von 3 Jahren mit nur einer Knopfzellenbatterie. Das 3D-gedruckte Gehäuse lässt sich problemlos auf unterschiedlichsten Oberflächen anbringen. </br></br>Bei diesem Open-source Projekt geht es uns darum, die innovative Thread Netzwerktechnologie zugänglicher zu machen, da wir in dieser Technologie ein grosses Potential für die Vernetzung von smarten Produkten sehen. OpenThread ist derzeit noch nicht überall verfügbar, ist aber die Zukunft. Geräte von Apple und Google sind werden dafür vorbereitet, sich in Zukunft über diese sichere und stromsparende IPv6 basierende Mesh-Netzwerktechnologie miteinander zu „unterhalten“.",
-			"en-EN": "The Thread Sensor Tag is a very compact low power sensor that can measure pressure, temperature, humidity and brightness and sends it to the OpenThread network every 20 seconds. Its low power consumption allows a runtime of 3 years with just one button cell battery. The 3D printed housing can be easily attached to a wide variety of surfaces. </br></br>With this open-source project, we want to make the innovative Thread network technology more accessible, as we see great potential for the networking of smart products in this technology. OpenThread is not yet available everywhere, but it is the future. Devices from Apple and Google are being prepared to communicate with each other via this secure and energy-saving IPv6-based mesh network technology in the future."
+			"de-DE": "Der Thread Sensor Tag ist ein äußerst kompakter Sensor mit geringem Energieverbrauch, der Druck, Temperatur, Luftfeuchtigkeit und Helligkeit präzise misst und die Daten alle 30 Sekunden in das OpenThread-Netzwerk überträgt. Dank seiner effizienten Energieverwaltung bietet er eine beeindruckende Laufzeit von bis zu 2.5 Jahren mit nur einer Knopfzellenbatterie. Das 3D-gedruckte Gehäuse ermöglicht eine mühelose Anbringung an vielfältigen Oberflächen.</br></br>Dieses Open-Source-Projekt zielt darauf ab, die innovative Thread-Netzwerktechnologie allgemein zugänglicher zu gestalten. Wir erkennen das immense Potenzial dieser Technologie für die Vernetzung von intelligenten Produkten. OpenThread ist zwar noch nicht überall verfügbar, jedoch repräsentiert es die Zukunft. Sowohl Apple als auch Google bereiten sich darauf vor, ihre Geräte in Zukunft über diese sichere und energieeffiziente IPv6-basierte Mesh-Netzwerktechnologie miteinander kommunizieren zu lassen.",
+			"en-EN": "The Thread Sensor Tag is an extremely compact, low-power sensor that accurately measures pressure, temperature, humidity, and brightness and transmits the data to the OpenThread network every 30 seconds. Thanks to its efficient power management, it offers an impressive runtime of up to 2.5 years with just one button cell battery. The 3D printed housing allows for effortless attachment to a variety of surfaces.</br></br>This open-source project aims to make the innovative Thread network technology more accessible. We recognize the immense potential of this technology for connecting smart products. Although OpenThread is not yet available everywhere, it represents the future. Both Apple and Google are preparing to have their devices communicate with each other via this secure and energy-efficient IPv6-based mesh network technology in the future."
 		},
 		"thing0_short_claim": {
 			"en-EN": "Compact, energy efficient and innovative. Your connection </br>to the future of networking </br>of smart products",
@@ -147,7 +147,7 @@
 		},
 		"help_fund": {
 			"en-EN": "Help Fund",
-			"de-DE": "Zur Kampaign"
+			"de-DE": "Jetzt Unterstützen"
 		},
 		"thing1_general_short_description": {
 			"en-EN": "Imagine harnessing the power and versatility of the Raspberry Pi Compute Module 3 (CM3) but on a platform built around the tried-and-true ESP32-S2 chip, and entirely open source. That’s precisely what Openthing 1 ESP-CM3 brings to the table. This project is designed to replace the Raspberry Pi CM3 while providing an accessible, affordable, and open-source alternative for developers and hobbyists worldwide.",
@@ -238,7 +238,7 @@
 			"en-EN": "1x"
 		},
 		"thing1_big_description":{
-			"de-DE": "Die Hardware des Openthing 1 ESP-CM3 ist vollständig Open Source und OSHWA-zertifiziert. Sie können Dateienwie Schaltpläne, Leiterplattenlayouts, Projektdateien, Software zum Testen des Moduls, Stücklisten usw. inunserem GitHub-Repository finden. <br><br> Das Gerät wird ohne Firmware oder Software geliefert. Der Openthing 1 ESP-CM3 kann verschiedene Betriebssysteme wie Zephyr oder Micropython ausführen, die einfach zu verwenden sind. Wir empfehlen Toit als RTOS für das Modul",
+			"de-DE": "Die Hardware des Openthing 1 ESP-CM3 ist vollständig Open Source und OSHWA-zertifiziert. Sie können Dateien wie Schaltpläne, Leiterplattenlayouts, Projektdateien, Software zum Testen des Moduls, Stücklisten usw. in unserem GitHub-Repository finden. <br><br> Das Gerät wird ohne Firmware oder Software geliefert. Der Openthing 1 ESP-CM3 kann verschiedene Betriebssysteme wie Zephyr oder Micropython ausführen, die einfach zu verwenden sind. Wir empfehlen Toit als RTOS für das Modul",
 			"en-EN": "The Openthing 1 ESP-CM3 hardware is fully open source and OSHWA certified. You can find files such as schematics, PCB layouts, project files, software to test the module, bill of materials, etc. in our GitHub repository. <br><br> The device is shipped without firmware or software. The Openthing 1 ESP-CM3 can run various operating systems such as Zephyr or Micropython, which are easy to use. We recommend Toit as RTOS for the module"
 		},
 		"open_source": {
@@ -366,13 +366,209 @@
 			"en-EN": "The Goal"
 		},
 		"thing4_description": {
-			"de-DE": "Unser Hauptziel besteht darin, kleinste Veränderungen in Umweltfaktoren wie Temperatur, Luftfeuchtigkeit und andere relevante Parameter in diesem Bereich zu erfassen und zu verfolgen. Diese Daten werden kontinuierlich erfasst und in einer umfassenden Datenbank gespeichert. </br></br> Das Schlüsselmerkmal unseres Konzepts liegt in der Möglichkeit, die gesammelten Informationen zu nutzen, um ein hochauflösendes 3D-Modell des Mikroklimas in diesem spezifischen Gebiet zu erstellen. Dieses Modell wird es Forschern und Anwendern ermöglichen, die räumliche Verteilung und Veränderungen der Umweltbedingungen inb Echtzeit zu visualisieren und zu analysieren. </br></br> Die Anwendungsmöglichkeiten dieses Konzepts sind vielfältig und reichen von Umweltforschung und -monitoring bis hin zur Optimierung von Ressourcenmanagement und nachhaltiger Planung. Wir sind davon überzeugt, dass unser Konzept dazu beitragen wird, die Erkenntnisse über Mikroklima-Veränderungen auf eine völlig neue Ebene zu heben und innovative Lösungen für die Herausforderungen des 21. Jahrhunderts zu bieten.",
+			"de-DE": "Unser Hauptziel besteht darin, kleinste Veränderungen in Umweltfaktoren wie Temperatur, Luftfeuchtigkeit und andere relevante Parameter in diesem Bereich zu erfassen und zu verfolgen. Diese Daten werden kontinuierlich erfasst und in einer umfassenden Datenbank gespeichert. </br></br> Das Schlüsselmerkmal unseres Konzepts liegt in der Möglichkeit, die gesammelten Informationen zu nutzen, um ein hochauflösendes 3D-Modell des Mikroklimas in diesem spezifischen Gebiet zu erstellen. Dieses Modell wird es Forschern und Anwendern ermöglichen, die räumliche Verteilung und Veränderungen der Umweltbedingungen in Echtzeit zu visualisieren und zu analysieren. </br></br> Die Anwendungsmöglichkeiten dieses Konzepts sind vielfältig und reichen von Umweltforschung und -monitoring bis hin zur Optimierung von Ressourcenmanagement und nachhaltiger Planung. Wir sind davon überzeugt, dass unser Konzept dazu beitragen wird, die Erkenntnisse über Mikroklima-Veränderungen auf eine völlig neue Ebene zu heben und innovative Lösungen für die Herausforderungen des 21. Jahrhunderts zu bieten.",
 			"en-EN": "Our main goal is to capture and track the smallest changes in environmental factors such as temperature, humidity, and other relevant parameters in this area. This data is continuously collected and stored in a comprehensive database. </br></br> The key feature of our concept lies in the ability to use the collected information to create a high-resolution 3D model of the microclimate in this specific area. This model will enable researchers and users to visualize and analyze the spatial distribution and changes in environmental conditions in real-time. </br></br> The application possibilities of this concept are diverse and range from environmental research and monitoring to resource management optimization and sustainable planning. We are convinced that our concept will help to take the insights into microclimate changes to a whole new level and provide innovative solutions to the challenges of the 21st century."
 		},
 		"thing4_short_claim": {
 			"de-DE": "Präzise Umweltüberwachung und hochauflösende 3D-Modelle für eine nachhaltigere Zukunft.",
 			"en-EN": "Precise environmental monitoring and high-resolution 3D models for a more sustainable future."
-		}
-		
+		},
+		"accessible_research_title": {
+			"de-DE": "Accessible Research",
+			"en-EN": "Accessible Research"
+		},
+		"accessible_research_desc": {
+			"de-DE": "Bei <span class='companyname'></span> liegt unser Fokus auf der Entwicklung von Geräten für die Forschung. Doch wir haben auch ein weiteres Ziel: Wir möchten diese Geräte für die breite Öffentlichkeit zugänglich machen. Warum? Indem wir unsere Designs und Technologien öffentlich teilen, erhöhen wir die Verbreitung und Nutzung unserer Produkte. Durch den Ausbau unserer Nutzerbasis können wir kostengünstigere Lösungen entwickeln, ohne die Genauigkeit und Qualität unserer Geräte zu beeinträchtigen, und wir können die Wissenschaft näher an die Menschen heranbringen.<br><br> Unser Ansatz besteht darin, Forschungsinstrumente nicht länger für eine begrenzte Gruppe von Experten vorzubehalten. Stattdessen möchten wir Forschungsinstrumente erschwinglicher und weitgehend zugänglich machen, damit sie von einer vielfältigen Gemeinschaft von Wissenschaftlern, Forschern und Enthusiasten genutzt werden können. Wir glauben, dass die Förderung von Offenheit und Zusammenarbeit es uns ermöglichen wird, innovative Lösungen zu entwickeln, die einen positiven Einfluss auf die Gesellschaft als Ganzes haben.",
+			"en-EN": "At <span class='companyname'></span>, our focus is on developing devices for research. But we have another goal: We want to make these devices accessible to the general public. Why? By sharing our designs and technologies publicly, we increase the distribution and use of our products. By expanding our user base, we can develop more cost-effective solutions without compromising the accuracy and quality of our devices, and we can bring science closer to the people.<br><br>Our approach is to no longer reserve research instruments for a limited group of experts. Instead, we want to make research instruments more affordable and widely accessible so that they can be used by a diverse community of scientists, researchers, and enthusiasts. We believe that promoting openness and collaboration will enable us to develop innovative solutions that have a positive impact on society as a whole."
+		},
+		"open_source_approach_title": {
+			"de-DE": "Open Source Approach",
+			"en-EN": "Open Source Approach"
+		},
+		"open_source_approach_description": {
+			"de-DE": "<span class='companyname'></span> ist stolz darauf, ein Open Source Unternehmen zu sein. Wir glauben, dass die Freiheit, Wissen und Technologie zu teilen, Fortschritt beschleunigt und Kreativität inspiriert. Indem wir unsere Designs offenlegen, ermöglichen wir anderen, unsere Geräte lokal zu entwickeln und herzustellen. Dieser Ansatz hat gleichzeitig mehrere Vorteile.<br><br> Erstens fördert die Open-Source-Philosophie lokale Unabhängigkeit. Indem wir Forschungsinstrumente lokal entwickeln und produzieren lassen, verringern wir die Abhängigkeit von externen Lieferanten oder teuren Importen. Dies erleichtert den Zugang zu wichtigen Werkzeugen und stärkt die Forschungskapazitäten in verschiedenen Regionen.<br><br> Zweitens schaffen wir durch Offenheit eine transparente und vertrauensvolle Gemeinschaft. Indem Benutzer den Quellcode und die Entwicklungsprozesse einsehen können, können sie die Integrität und Sicherheit der Geräte überprüfen. Dies fördert das Vertrauen in unsere Produkte und ermöglicht der Gemeinschaft, Probleme zu beheben und gemeinsam an Verbesserungen zu arbeiten.",
+			"en-EN": "<span class='companyname'></span> is proud to be an open-source company. We believe that the freedom to share knowledge and technology accelerates progress and inspires creativity. By disclosing our designs, we enable others to develop and manufacture our devices locally. This approach has several advantages at the same time.<br><br> First, the open-source philosophy promotes local independence. By developing and producing research instruments locally, we reduce dependence on external suppliers or expensive imports. This facilitates access to important tools and strengthens research capacity in different regions.<br><br> Second, by being open, we create a transparent and trustworthy community. By allowing users to view the source code and development processes, they can verify the integrity and security of the devices. This builds trust in our products and enables the community to troubleshoot and work together on improvements." 
+		},
+		"patreon_link": {
+			"de-DE": "Auf Patreon unterstützen",
+			"en-EN": "Support on Patreon"
+		},
+
+		"Privacy_Policy": {
+			"de-DE": "Datenschutzerklärung",
+			"en-EN": "Privacy Policy"
+		},
+		"Privacy_Policy_Text": {
+				"de-DE": "In dieser Datenschutzerklärung informieren wir Sie über die wesentlichen Aspekte der Datenverarbeitung im Rahmen unserer Webseite. Wir erheben und verarbeiten personenbezogene Daten nur in Übereinstimmung mit den geltenden Datenschutzbestimmungen (Datenschutz-Grundverordnung, Telekommunikationsgesetz 2003).",
+				"en-EN": "In the following Privacy Policy, we inform you about the key aspects of data processing on our website. We collect and process personal data only in accordance with applicable data protection laws (General Data Protection Regulation, Telecommunications Act 2003)."
+		},
+		"Privacy_Policy_Text_2": {
+				"de-DE": "Wenn Sie als Benutzer auf unsere Webseite zugreifen oder sie besuchen, erfassen wir Ihre IP-Adresse sowie den Beginn und das Ende der Sitzung. Dies erfolgt aus technischen Gründen und stellt daher ein berechtigtes Interesse gemäß Artikel 6 Absatz 1 Buchstabe f DSGVO dar.",
+				"en-EN": "When you, as a user, access our website or visit it, we collect your IP address as well as the start and end of the session. This is done for technical reasons and therefore constitutes a legitimate interest pursuant to Article 6(1)(f) GDPR."
+		},
+		"Contact_Us": {
+				"de-DE": "Kontakt mit uns",
+				"en-EN": "Contact Us"
+		},
+		"Contact_Us_Text": {
+				"de-DE": "Wenn Sie uns, entweder über unser Kontaktformular auf unserer Webseite, oder per Email kontaktieren, dann werden die von Ihnen an uns übermittelten Daten zwecks Bearbeitung Ihrer Anfrage oder für den Fall von weiteren Anschlussfragen für sechs Monate bei uns gespeichert. Es erfolgt keine Weitergabe Ihrer übermittelten Daten ohne Ihre Einwilligung.",
+				"en-EN": "If you contact us, either through our contact form on our website or via email, the data you provide to us will be stored for the purpose of processing your request or for follow-up questions for six months. Your submitted data will not be disclosed without your consent."
+		},
+		"Google_Fonts": {
+				"de-DE": "Google Fonts",
+				"en-EN": "Google Fonts"
+		},
+		"Google_Fonts_Text": {
+				"de-DE": "Unsere Website verwendet Schriftarten von „Google Fonts“.",
+				"en-EN": "Our website uses fonts from 'Google Fonts.'"
+		},
+		"Google_Fonts_Text_2": {
+				"de-DE": "Der Dienstanbieter dieser Funktion ist:",
+				"en-EN": "The service provider for this feature is:"
+		},
+		"Google_Fonts_Text_3": {
+				"de-DE": "Beim Aufrufen dieser Webseite lädt Ihr Browser Schriftarten und speichert diese in den Cache. Da Sie, als Besucher der Webseite, Daten des Dienstanbieters empfangen kann Google unter Umständen Cookies auf Ihrem Rechner setzen oder analysieren.",
+				"en-EN": "When you visit this website, your browser downloads fonts and stores them in the cache. Since you, as a visitor to the website, may receive data from the service provider, Google may potentially set cookies on your computer or analyze data."
+		},
+		"Google_Fonts_Text_4": {
+				"de-DE": "Die Nutzung von „Google-Fonts“ dient der Optimierung unserer Dienstleistung und der einheitlichen Darstellung von Inhalten. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar.",
+				"en-EN": "The use of 'Google Fonts' is for optimizing our service and achieving a consistent presentation of content. This represents a legitimate interest within the meaning of Art. 6(1)(f) GDPR."
+		},
+		"Google_Fonts_Text_5": {
+				"de-DE": "</br>Weitere Informationen zu Google Fonts erhalten Sie unter folgendem Link: <a href='https://developers.google.com/fonts/faq'>https://developers.google.com/fonts/faq</a>",
+				"en-EN": "</br>For more information about Google Fonts, please visit the following link: <a href='https://developers.google.com/fonts/faq'>https://developers.google.com/fonts/faq</a>"
+		},
+		"Google_Fonts_Text_6": {
+				"de-DE": "</br>Weitere Informationen über den Umgang mit Nutzerdaten von Google können Sie der Datenschutzerklärung entnehmen: <a href='https://policies.google.com/privacy?hl=de'>https://policies.google.com/privacy?hl=de</a>",
+				"en-EN": "</br>For more information about how Google handles user data, please refer to the privacy policy: <a href='https://policies.google.com/privacy?hl=en'>https://policies.google.com/privacy?hl=en</a>" 
+		},
+		"Google_Fonts_Text_7": {
+				"de-DE": "</br>Google verarbeitet die Daten auch in den USA, hat sich jedoch dem EU-US Privacy-Shield unterworfen. <a href='https://www.privacyshield.gov/EU-US-Framework'>https://www.privacyshield.gov/EU-US-Framework</a>",
+				"en-EN": "</br>Google also processes the data in the USA, but has submitted to the EU-US Privacy Shield. <a href='https://www.privacyshield.gov/EU-US-Framework'>https://www.privacyshield.gov/EU-US-Framework</a>"
+		},
+		"Your_Rights_as_a_Data_Subject": {
+				"de-DE": "Ihre Rechte als Betroffener",
+				"en-EN": "Your Rights as a Data Subject"
+		},
+		"Your_Rights_as_a_Data_Subject_Text": {
+				"de-DE": "Sie als Betroffener haben bezüglich Ihrer Daten, welche bei uns gespeichert sind grundsätzlich ein Recht auf:",
+				"en-EN": "As a data subject, you have the following rights regarding your data stored with us:"
+		},
+		"list_entry_information": {
+				"de-DE": "Auskunft",
+				"en-EN": "Information"
+		},
+		"list_entry_deletion": {
+				"de-DE": "Löschung der Daten",
+				"en-EN": "Deletion of Data"
+		},
+		"list_entry_correction": {
+				"de-DE": "Berichtigung der Daten",
+				"en-EN": "Correction of Data"
+		},
+		"list_entry_portability": {
+				"de-DE": "Übertragbarkeit der Daten",
+				"en-EN": "Data Portability"
+		},
+		"list_entry_withdrawal": {
+				"de-DE": "Wiederruf und Widerspruch zur Datenverarbeitung",
+				"en-EN": "Withdrawal and Objection to Data Processing"
+		},
+		"list_entry_restriction": {
+				"de-DE": "Einschränkung",
+				"en-EN": "Restriction"
+		},
+		"Your_Rights_Text_2": {
+				"de-DE": "Wenn sie vermuten, dass im Zuge der Verarbeitung Ihrer Daten Verstöße gegen das Datenschutzrecht passiert sind, so haben Sie die Möglichkeit sich bei uns (info@open-things.de) oder der Datenschutzbehörde zu beschweren.",
+				"en-EN": "If you suspect that violations of data protection law have occurred during the processing of your data, you have the option to lodge a complaint with us (info@open-things.de) or the data protection authority."
+		},
+		"you_reach_us_at":{
+			"de-DE": "</br>Sie erreichen uns unter <a class='mail link' href='mailto:info@open-things.de'>info@open-things.de</a>",
+			"en-EN": "</br>You can reach us at <a class='mail link' href='mailto:info@open-things.de'>info@open-things.de</a>"
+		},
+		"Imprint": {
+			"de-DE": "Impressum",
+			"en-EN": "Imprint"
+		},
+		"Imprint_Name": {
+				"de-DE": "Mirko Häberlin",
+				"en-EN": "Mirko Häberlin"
+		},
+		"Imprint_Legal_Form": {
+				"de-DE": "Einzelunternehmen mit Kleinunternehmerregelung",
+				"en-EN": "Sole Proprietorship with Small Business Status"
+		},
+		"Imprint_Address": {
+				"de-DE": "Kiefholzstr. 403a",
+				"en-EN": "Kiefholzstr. 403a"
+		},
+		"Imprint_Location": {
+				"de-DE": "12435 Berlin - DE",
+				"en-EN": "12435 Berlin - DE"
+		},
+		"Disclaimer": {
+				"de-DE": "Haftungsausschluss",
+				"en-EN": "Disclaimer"
+		},
+		"Disclaimer_Text": {
+				"de-DE": "Die Informationen auf dieser Webseite dienen ausschließlich zu Informationszwecken. Obwohl wir uns bemühen, genaue und aktuelle Informationen bereitzustellen, übernehmen wir keine Gewähr für die Richtigkeit, Vollständigkeit oder Aktualität der bereitgestellten Informationen. Haftungsansprüche gegen uns, die sich auf Schäden materieller oder immaterieller Art beziehen, die durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollständiger Informationen verursacht wurden, sind grundsätzlich ausgeschlossen, sofern von unserer Seite kein nachweislich vorsätzliches oder grob fahrlässiges Verschulden vorliegt.",
+				"en-EN": "The information on this website is provided for informational purposes only. While we strive to provide accurate and up-to-date information, we make no guarantees of the accuracy, completeness, or timeliness of the information provided. Liability claims against us relating to material or immaterial damage caused by the use or non-use of the information presented or by the use of incorrect or incomplete information are fundamentally excluded, unless we can be proven to have acted with intent or gross negligence."
+		},
+		"Copyright": {
+				"de-DE": "Urheberrecht",
+				"en-EN": "Copyright"
+		},
+		"Copyright_Text": {
+				"de-DE": "Die durch uns erstellten Inhalte und Werke auf dieser Webseite unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen unserer schriftlichen Zustimmung. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.",
+				"en-EN": "The content and works created by us on this website are subject to German copyright law. The reproduction, editing, distribution, and any kind of exploitation beyond the limits of copyright law require our written consent. Downloads and copies of this site are only permitted for private, non-commercial use."
+		},
+		"Privacy_Policy_Title": {
+				"de-DE": "Datenschutz",
+				"en-EN": "Privacy Policy"
+		},
+		"Privacy_Policy_Text_Imprint": {
+				"de-DE": "Informationen zum Umgang mit personenbezogenen Daten finden Sie in unserer",
+				"en-EN": "Information about the handling of personal data can be found in our"
+		},
+		"Privacy_Policy_Link": {
+				"de-DE": "Datenschutzerklärung",
+				"en-EN": "Privacy Policy"
+		},
+		"Custom_Thing": {
+			"de-DE": "Maßgeschneidertes Produkt",
+			"en-EN": "Custom Thing"
+	},
+	"Custom_Thing_Description": {
+			"de-DE": "Wir erstellen Ihr Produkt!",
+			"en-EN": "We make your thing!"
+	},
+	"Contact_Now": {
+			"de-DE": "Jetzt kontaktieren",
+			"en-EN": "Contact Now"
+	},
+	"Custom_Solutions_Title": {
+			"de-DE": "Unsere hochqualifizierten Experten arbeiten eng mit Ihnen zusammen, um maßgeschneiderte Lösungen zu entwickeln, die exakt auf Ihre individuellen Bedürfnisse zugeschnitten sind. Wir verstehen, dass jeder Kunde einzigartig ist und unterschiedliche Anforderungen hat. Daher legen wir großen Wert darauf, Ihre speziellen Anforderungen und Ziele zu verstehen, um Ihnen die bestmögliche Lösung anzubieten.",
+			"en-EN": "Our highly skilled experts work closely with you to develop customized solutions tailored to your specific needs. We understand that each customer is unique and has different requirements. Therefore, we place great emphasis on understanding your specific requirements and goals to provide you with the best possible solution."
+	},
+	"What_We_Offer_Title": {
+			"de-DE": "Was wir anbieten",
+			"en-EN": "What We Offer"
+	},
+	"Custom_Hardware_Solutions_Text": {
+			"de-DE": "Suchen Sie maßgeschneiderte Hardwarelösungen mit klarem Fokus auf Klimaforschung, Klimadatenanalyse, Naturschutz oder Tierschutz? Wir verstehen die kritische Bedeutung dieser Bereiche für die Erhaltung unseres Planeten und setzen unsere technische Expertise ein, um innovative Lösungen für diese Anliegen zu entwickeln.",
+			"en-EN": "Are you looking for custom hardware solutions with a clear focus on climate research, climate data analysis, conservation, or animal welfare? We understand the critical importance of these areas for preserving our planet and apply our technical expertise to develop innovative solutions for these concerns."
+	},
+	"In_Collaboration_With_Organizations_Text": {
+			"de-DE": "In enger Zusammenarbeit mit führenden Organisationen und Einrichtungen, die sich dem Schutz des Klimas und der Tierwelt verschrieben haben, konzipieren und fertigen wir Hardware, die präzise Datenerfassung und Analyse ermöglicht. Unsere maßgeschneiderten Lösungen tragen dazu bei, Umweltveränderungen zu überwachen, Tierbewegungen zu verfolgen, Klimadaten zu erfassen und Naturschutzprojekte effektiver zu gestalten.",
+			"en-EN": "In close collaboration with leading organizations and institutions dedicated to climate and wildlife conservation, we design and manufacture hardware that enables precise data collection and analysis. Our customized solutions contribute to monitoring environmental changes, tracking animal movements, capturing climate data, and enhancing conservation projects' effectiveness."
+	},
+	"Dedicated_Expert_Team_Text": {
+			"de-DE": "Unser Team von Experten teilt Ihre Leidenschaft für den Schutz unseres Planeten und setzt sich dafür ein, fortschrittliche Technologie in den Dienst von Umweltschutz und Tierschutz zu stellen. Wenn Sie nach zuverlässigen Partnern suchen, um Ihre Visionen im Bereich Klimaforschung, Naturschutz und Tierschutz zu verwirklichen, sind wir Ihr vertrauenswürdiger Ansprechpartner für maßgeschneiderte Hardware-Lösungen, die den höchsten Standards entsprechen.",
+			"en-EN": "Our team of experts shares your passion for protecting our planet and is committed to putting advanced technology in the service of environmental and animal welfare. If you are looking for reliable partners to realize your visions in climate research, conservation, and animal welfare, we are your trusted source for customized hardware solutions that meet the highest standards."
+	},
+	"Schedule_An_Appointment_Now": {
+			"de-DE": "Jetzt einen Termin vereinbaren",
+			"en-EN": "Schedule an Appointment Now"
+	}
 	}
 }

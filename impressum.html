@@ -38,44 +38,35 @@
   <main>
     <section id="specs">
       <div class="wrapper">
-        <div class="paragraph">
-          <h3 class="title">Impressum</h3>
-          <p class="content">Mirko Häberlin</p>
-          <p class="content">Einzelunternehmen mit Kleinunternehmerregelung </p>
-          <p class="content">Kiefholzstr. 403a</p>
-          <p class="content">12435 Berlin - DE</p>
-        </div>
-        <div class="paragraph">
-          <h3 class="title">Haftungsausschluss</h3>
-          <p class="content">Die Informationen auf dieser Webseite dienen ausschließlich zu Informationszwecken. Obwohl
-            wir uns bemühen, genaue und aktuelle Informationen bereitzustellen, übernehmen wir keine Gewähr für die
-            Richtigkeit, Vollständigkeit oder Aktualität der bereitgestellten Informationen. Haftungsansprüche gegen
-            uns, die sich auf Schäden materieller oder immaterieller Art beziehen, die durch die Nutzung oder
-            Nichtnutzung der dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollständiger
-            Informationen verursacht wurden, sind grundsätzlich ausgeschlossen, sofern von unserer Seite kein
-            nachweislich vorsätzliches oder grob fahrlässiges Verschulden vorliegt.</p>
-        </div>
-        <div class="paragraph">
-          <h3 class="title">Urheberrecht</h3>
-          <p class="content">Die durch uns erstellten Inhalte und Werke auf dieser Webseite unterliegen dem deutschen
-            Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der
-            Grenzen des Urheberrechts bedürfen unserer schriftlichen Zustimmung. Downloads und Kopien dieser Seite sind
-            nur für den privaten, nicht kommerziellen Gebrauch gestattet.</p>
-        </div>
-        <div class="paragraph">
-          <h3 class="title">Datenschutz</h3>
-          <p class="content">Informationen zum Umgang mit personenbezogenen Daten finden Sie in unserer
-          <a class="link" href="impressum.html">Datenschutzerklärung</a></p>
-        </div>
+          <div class="paragraph">
+              <h3 class="title" data-translatekey="Imprint"></h3>
+              <p class="content" data-translatekey="Imprint_Name"></p>
+              <p class="content" data-translatekey="Imprint_Legal_Form"></p>
+              <p class="content" data-translatekey="Imprint_Address"></p>
+              <p class="content" data-translatekey="Imprint_Location"></p>
+          </div>
+          <div class="paragraph">
+              <h3 class="title" data-translatekey="Disclaimer"></h3>
+              <p class="content" data-translatekey="Disclaimer_Text"></p>
+          </div>
+          <div class="paragraph">
+              <h3 class="title" data-translatekey="Copyright"></h3>
+              <p class="content" data-translatekey="Copyright_Text"></p>
+          </div>
+          <div class="paragraph">
+              <h3 class="title" data-translatekey="Privacy_Policy_Title"></h3>
+              <p class="content">
+                  <span data-translatekey="Privacy_Policy_Text_Imprint"></span>
+                  <a class="link" href="impressum.html" data-translatekey="Privacy_Policy_Link"></a>
+              </p>
+          </div>
       </div>
-    </section>
+  </section>
   </main>
 
   <footer w3-include-html="footer.html"></footer>
-
-  <script>
-    includeHTML();
-  </script>
+	<script src="includehtml.js"></script>
+	<script src="tinyi18n.js"></script>
 </body>
 
 </html>
