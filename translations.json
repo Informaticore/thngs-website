@@ -151,7 +151,7 @@
 		},
 		"thing1_general_short_description": {
 			"en-EN": "Imagine harnessing the power and versatility of the Raspberry Pi Compute Module 3 (CM3) but on a platform built around the tried-and-true ESP32-S2 chip, and entirely open source. That’s precisely what Openthing 1 ESP-CM3 brings to the table. This project is designed to replace the Raspberry Pi CM3 while providing an accessible, affordable, and open-source alternative for developers and hobbyists worldwide.",
-			"de-DE": "Stell dir vor, du könntest die Leistung und Vielseitigkeit des Raspberry Pi Compute Module 3 (CM3) nutzen, aber auf einer Plattform, die auf dem bewährten ESP32-S2-Chip basiert und vollständig Open Source ist. Genau das bietet Openthing 1 ESP-CM3. Dieses Projekt ist darauf ausgelegt, das Raspberry Pi CM3 zu ersetzen und gleichzeitig eine zugängliche, erschwingliche und Open-Source-Alternative für Entwickler und Hobbyisten auf der ganzen Welt zu bieten."
+			"de-DE": "Stell dir vor, du könntest die Leistung und Vielseitigkeit des Raspberry Pi Compute Module 3 nutzen, aber auf einer Plattform, die auf dem bewährten ESP32-S2-Chip basiert und vollständig Open Source ist.\n Ersetze das Raspberry Pi CM3 mit einer zugänglichen, erschwinglichen Open-Source-Alternative für Forscher, Entwickler und Hobbyisten auf der ganzen Welt."
 		},
 		"thing1_dimensions_label": {
 			"en-EN": "Dimensions",
