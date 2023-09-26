@@ -248,6 +248,87 @@
 		"thing1_short_claim": {
 			"en-EN": "The powerful, affordable alternative to the Raspberry Pi Compute Module 3 based on ESP32 - maximum features in a compact design",
 			"de-DE": "Die leistungsstarke, erschwingliche Alternative zum Raspberry Pi Compute Module 3 auf ESP32-Basis - maximale Funktionen in kompaktem Design"
+		},
+		"thing2_general_short_description": {
+			"de-DE": "Openthing 2 RepTrap ist ein detektier Gerät und Kamera Auslöser zur Aufnahme von Bildern relativ kleiner Tiere, einschließlich Eidechsen, Frösche und kleiner Schlangen oder Mäuse, die von üblichen Bewegungsdetektoren übersehen werden. Dieses Gerät dient als unverzichtbares Werkzeug für Tierfotografen, Forscher und Enthusiasten, die bestrebt sind, diese Kreaturen in ihrer natürlichen Umgebung zu dokumentieren. Das Gerät ist darauf ausgelegt, jede Art von Kamera mit einem externen Eingang für einen Auslöser für den Verschluss auszulösen.",
+			"en-EN": "Openthing 2 RepTrap is a detection device and camera trigger for capturing images of relatively small animals, including lizards, frogs and small snakes or mice, which are overlooked by common motion detectors. This device serves as an indispensable tool for animal photographers, researchers and enthusiasts who are eager to document these creatures in their natural environment. The device is designed to trigger any type of camera with an external input for a shutter trigger."
+		},
+		"thing2_dimensions_label": {
+			"en-EN": "Dimensions",
+			"de-DE": "Maße"
+		},
+		"thing2_processor_label": {
+			"en-EN": "Processor",
+			"de-DE": "Prozessor"
+		},
+		"thing2_processor_desc": {
+			"en-EN": "Raspberry Pi RP2040",
+			"de-DE": "Raspberry Pi RP2040"
+		},
+		"thing2_memory_label": {
+			"en-EN": "Memory",
+			"de-DE": "Speicher"
+		},
+		"thing2_memory_desc": {
+			"en-EN": "16MB Flash",
+			"de-DE": "16MB Flash"
+		},
+		"thing2_battery_lifetime_label": {
+			"en-EN": "Battery lifetime",
+			"de-DE": "Batterielaufzeit"
+		},
+		"thing2_battery_lifetime_desc": {
+			"en-EN": "~2 Days",
+			"de-DE": "~2 Tage"
+		},
+		"thing2_sensor_label": {
+			"en-EN": "Sensor",
+			"de-DE": "Sensor"
+		},
+		"thing2_sensor_desc": {
+			"en-EN": "4x Distance and Proximity Sensor for accurate detection",
+			"de-DE": "4x Distanz- und Proximity Sensor für akkurate dedektion"
+		},
+		"thing2_camera_connector_label": {
+			"en-EN": "Camera Connector",
+			"de-DE": "Kamera Anschluss"
+		},
+		"thing2_camera_connector_desc": {
+			"en-EN": "2.5 mm Jack",
+			"de-DE": "2.5 mm Klinke"
+		},
+		"thing2_connector_charging_label": {
+			"en-EN": "Connector Charging",
+			"de-DE": "Anschluss Laden"
+		},
+		"thing2_connector_charging_desc": {
+			"en-EN": "USB-C",
+			"de-DE": "USB-C"
+		},
+		"thing2_nabu_title": {
+			"de-DE": "Molche sicher unterscheiden",
+			"en-EN": "Differentiate newts safely"
+		},
+		"thing2_nabu_description": {
+			"de-DE": "Bei den vier heimischen Molcharten haben Aktive immer wieder Schwierigkeiten, sie am Zaun schnell und sicher zu bestimmen. Carlo Fuchs von der NABU-Bezirksgruppe Braunschweig hat nun gut nachvollziehbare Unterscheidungsmerkmale zusammengestellt.",
+			"en-EN": "With the four native newt species, activists repeatedly have difficulties in quickly and safely identifying them at the fence. Carlo Fuchs from the NABU district group Braunschweig has now put together well comprehensible distinguishing features."
+		},
+		"thing2_nabu_link": {
+			"de-DE": "Mehr lesen bei NABU",
+			"en-EN": "Read more at NABU"
+		},
+		"thing2_problem_title": {
+			"de-DE": "Das Problem",
+			"en-EN": "The Problem"
+		},
+		"thing2_problem_desc": {
+			"de-DE": "Im Bereich der Tierforschung wird bei der herkömmlichen Methode zur Erfassung kleiner Tiere oft auf traditionelle Fallfallen zurückgegriffen. Diese Fallen bestehen in der Regel aus einem Behälter wie einem Eimer, der dazu dient, das Tier zu fangen, und langen Planen, die auf jeder Seite angebracht sind, um eine trichterförmige Struktur zu schaffen und das Tier in die Falle zu leiten. </br></br> Allerdings birgt dieser Ansatz erhebliche Herausforderungen und potenzielle Risiken für die gefangenen Tiere. Ein Hauptanliegen besteht darin, dass das gefangene Tier einmal gefangen im Inneren der Falle eingeschlossen bleibt und somit anfällig für Angriffe durch andere Tiere in der Umgebung ist. Zudem können ungünstige Wetterbedingungen wie starker Regen die Falle überfluten und das Risiko des Ertrinkens für das gefangene Tier erhöhen, wenn es nicht rechtzeitig überprüft werden kann. </br></br> Ein weiterer Nachteil dieser Fangmethode besteht darin, dass sie darauf angewiesen ist, dass Tiere freiwillig in den Behälter eintreten, was nicht jedes Tier dazu verleitet. Dies stellt für Forscher eine erhebliche Herausforderung dar, da einige Tiere nicht auf die Falle hereinfallen und es versäumen können, den vorgesehenen Behälter zu betreten, was verpasste Gelegenheiten zur Erforschung und Überwachung dieser scheuen Kreaturen zur Folge hat. </br></br>Die Openthing 2 RepTrap soll diesem Problem entgegenwirken und eine Alternative zu den herkömmlichen Methoden bieten.",
+			"en-EN": "In the field of animal research, the traditional method of capturing small animals often relies on traditional pitfall traps. These traps typically consist of a container such as a bucket that serves to capture the animal and long tarps attached to each side to create a funnel-shaped structure to guide the animal into the trap. </br></br> However, this approach poses significant challenges and potential risks to the captured animals. One major concern is that the captured animal remains trapped inside the trap once captured, making it vulnerable to attacks by other animals in the vicinity. In addition, adverse weather conditions such as heavy rain can flood the trap and increase the risk of drowning for the captured animal if it cannot be checked in time. </br></br> Another disadvantage of this trapping method is that it relies on animals voluntarily entering the container, which not every animal is tempted to do. This poses a significant challenge for researchers, as some animals may not fall for the trap and may fail to enter the intended container, resulting in missed opportunities to study and monitor these shy creatures. </br></br> The Openthing 2 RepTrap is intended to address this problem and provide an alternative to traditional methods."
+		},
+		"thing2_short_claim": {
+			"de-DE": "Die innovative Lösung für Tierforschung - ohne Risiken und verpasste Gelegenheiten.",
+			"en-EN": "The innovative solution for animal research - without risks and missed opportunities."
 		}
+
 	}
 }
