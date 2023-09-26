@@ -328,7 +328,36 @@
 		"thing2_short_claim": {
 			"de-DE": "Die innovative Lösung für Tierforschung - ohne Risiken und verpasste Gelegenheiten.",
 			"en-EN": "The innovative solution for animal research - without risks and missed opportunities."
-		}
-
+		},
+		"concept_label": {
+			"en-EN": "Concept",
+			"de-DE": "Konzept"
+		},
+		"thing3_general_short_description": {
+			"de-DE": "Die Herausforderung, den Wasserstand in Flüssen genau zu verfolgen, ist an vielen Orten ungelöst. Die aktuellen Methoden sind oft manuell, zeitaufwändig und anfällig für Ungenauigkeiten aufgrund von Faktoren wie Wetter und menschlichem Versagen. Openthing 3 RiverWatch bietet kostengünstige, aber präzise Wasserstandsmessungen, die zeitnahe Hochwasservorhersagen, effektives Wassermanagement und verbesserte Umweltüberwachung ermöglichen.",
+			"en-EN": "The challenge of accurately monitoring river water levels is unsolved in many places. Current methods are often manual, time-consuming, and prone to inaccuracies due to factors such as weather and human error. Openthing 3 RiverWatch provides low-cost but accurate water level measurements that enable timely flood forecasting, effective water management, and improved environmental monitoring."
+		},
+		"thing3_no_specs_label": {
+			"en-EN": "Specs",
+			"de-DE": "Spezifikationen"
+		},
+		"thing3_no_specs_desc": {
+			"en-EN": "Currently no specifications are known for this device",
+			"de-DE": "Aktuell sind noch keine Spezifikationen für dieses Gerät bekannt"
+		},
+		"thing3_description_title": {
+			"en-EN": "Idea",
+			"de-DE": "Idee"
+		},
+		"thing3_description": {
+			"de-DE": "Die Idee dieses Konzepts besteht darin, eine Lösung mit zwei Drucksensoren zu verwenden, um den Wasserstand im Fluss zu messen. Der erste Sensor, ein stationärer Sensor, ist kalibriert, um den atmosphärischen Druck in einer festen Höhe über der Wasseroberfläche genau zu messen. Dieser Sensor bietet einen Referenzpunkt mit hoher Genauigkeit. </br></br> Der zweite Sensor, der als Boje fungiert, schwimmt auf der Wasseroberfläche und ist ebenfalls kalibriert, um den atmosphärischen Druck auf Höhe des Wasserstands zu messen. Dieser Sensors soll zuverlässige Messungen im gleichen Genauigkeitsbereich wie der stationäre Sensor liefern. </br></br> Durch die Verwendung der kalibrierten Drucksensoren und die Berücksichtigung des bekannten Genauigkeitsbereichs ermöglicht diese Lösung die Berechnung des Wasserstands im Fluss mit hoher Präzision.",
+			"en-EN": "The idea of this concept is to use a solution with two pressure sensors to measure the water level in the river. The first sensor, a stationary sensor, is calibrated to accurately measure atmospheric pressure at a fixed height above the water surface. This sensor provides a high-precision reference point. </br></br> The second sensor, which acts as a buoy, floats on the water surface and is also calibrated to measure atmospheric pressure at the height of the water level. This sensor is intended to provide reliable measurements in the same accuracy range as the stationary sensor. </br></br> By using the calibrated pressure sensors and taking into account the known accuracy range, this solution enables the calculation of the water level in the river with high precision."
+		},
+		"thing3_short_claim": {
+			"de-DE": "Zwei Sensoren, eine präzise Lösung: Genauigkeit im Flusswasserstand mit unserem Dual-Drucksensor-Konzept",
+			"en-EN": "Two sensors, one precise solution: Accuracy in river water level with our dual pressure sensor concept"
+		},
+		
+		
 	}
 }
