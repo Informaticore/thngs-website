@@ -48,6 +48,9 @@ a{
 img{
 	user-select: none;
 }
+iframe{
+	border: 0;
+}
 ::selection{
 	background: #FAFAFA;
 	color: black;
