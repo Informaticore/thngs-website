@@ -113,6 +113,10 @@
 			"en-EN": "Network",
 			"de-DE": "Netzwerk"
 		},
+		"thing0_network_desc": {
+			"en-EN": "Open Thread by Google",
+			"de-DE": "Open Thread von Google"
+		},
 		"thing0_power_consumption_label": {
 			"en-EN": "Power consumption",
 			"de-DE": "Stromverbrauch"
@@ -140,6 +144,110 @@
 		"github_repository_link": {
 			"en-EN": "Git Hub Repository",
 			"de-DE": "Git Hub Repository"
+		},
+		"help_fund": {
+			"en-EN": "Help Fund",
+			"de-DE": "Zur Kampaign"
+		},
+		"thing1_general_short_description": {
+			"en-EN": "Imagine harnessing the power and versatility of the Raspberry Pi Compute Module 3 (CM3) but on a platform built around the tried-and-true ESP32-S2 chip, and entirely open source. That’s precisely what Openthing 1 ESP-CM3 brings to the table. This project is designed to replace the Raspberry Pi CM3 while providing an accessible, affordable, and open-source alternative for developers and hobbyists worldwide.",
+			"de-DE": "Stell dir vor, du könntest die Leistung und Vielseitigkeit des Raspberry Pi Compute Module 3 (CM3) nutzen, aber auf einer Plattform, die auf dem bewährten ESP32-S2-Chip basiert und vollständig Open Source ist. Genau das bietet Openthing 1 ESP-CM3. Dieses Projekt ist darauf ausgelegt, das Raspberry Pi CM3 zu ersetzen und gleichzeitig eine zugängliche, erschwingliche und Open-Source-Alternative für Entwickler und Hobbyisten auf der ganzen Welt zu bieten."
+		},
+		"thing1_dimensions_label": {
+			"en-EN": "Dimensions",
+			"de-DE": "Maße"
+		},
+		"thing1_processor_label": {
+			"en-EN": "Processor",
+			"de-DE": "Prozessor"
+		},
+		"thing1_memory_label": {
+			"en-EN": "Memory",
+			"de-DE": "Speicher"
+		},
+		"thing1_wifi_label": {
+			"en-EN": "WiFi",
+			"de-DE": "WiFi"
+		},
+		"thing1_wifi_desc": {
+			"en-EN": "802.11 b/g/n 2.4 GHz",
+			"de-DE": "802.11 b/g/n 2.4 GHz"
+		},
+		"thing1_ethernet_label": {
+			"en-EN": "Ethernet",
+			"de-DE": "Ethernet"
+		},
+		"thing1_ethernet_desc": {
+			"de-DE": "externer USB-zu-Ethernet-Brückenkonverter erforderlich",
+			"en_EN": "external USB to Ethernet bridge converter required"
+		},
+		"thing1_power_consumption_label": {
+			"en-EN": "Power consumption",
+			"de-DE": "Stromverbrauch"
+		},
+		"thing1_power_consumption_desc": {
+			"en-EN": "5-240 Milliwatt (mW)",
+			"de-DE": "5-240 Milliwatt (mW)"
+		},
+		"thing1_operating_system_label": {
+			"en-EN": "Operating System",
+			"de-DE": "Betriebssystem"
+		},
+		"thing1_operating_system_desc": {
+			"de-DE": "kann verschiedene Betriebssysteme ausführen oder direkt auf dem Mikrocontroller benutzerdefinierten Code ausführen",
+			"en-EN": "can run various operating systems or run custom code directly on the microcontroller"
+		},
+		"thing1_usb_label": {
+			"en-EN": "USB",
+			"de-DE": "USB"
+		},
+		"thing1_usb_desc": {
+			"de-DE": "USB On-The-Go (OTG) in voller Geschwindigkeit",
+			"en-EN": "USB On-The-Go (OTG) at full speed"
+		},
+		"thing1_gpio_label": {
+			"en-EN": "GPIO",
+			"de-DE": "GPIO"
+		},
+		"thing1_gpio_desc": {
+			"de-DE": "bis zu 45 GPIO-Pins",
+			"en-EN": "up to 45 GPIO pins"
+		},
+		"thing1_i2c_label": {
+			"en-EN": "I2C",
+			"de-DE": "I2C"
+		},
+		"thing1_i2c_desc": {
+			"de-DE": "2x",
+			"en-EN": "2x"
+		},
+		"thing1_spi_label": {
+			"en-EN": "SPI",
+			"de-DE": "SPI"
+		},
+		"thing1_spi_desc": {
+			"de-DE": "2x",
+			"en-EN": "2x"
+		},
+		"thing1_uart_label": {
+			"en-EN": "UART",
+			"de-DE": "UART"
+		},
+		"thing1_uart_desc": {
+			"de-DE": "1x",
+			"en-EN": "1x"
+		},
+		"thing1_big_description":{
+			"de-DE": "Die Hardware des Openthing 1 ESP-CM3 ist vollständig Open Source und OSHWA-zertifiziert. Sie können Dateienwie Schaltpläne, Leiterplattenlayouts, Projektdateien, Software zum Testen des Moduls, Stücklisten usw. inunserem GitHub-Repository finden. <br><br> Das Gerät wird ohne Firmware oder Software geliefert. Der Openthing 1 ESP-CM3 kann verschiedene Betriebssysteme wie Zephyr oder Micropython ausführen, die einfach zu verwenden sind. Wir empfehlen Toit als RTOS für das Modul",
+			"en-EN": "The Openthing 1 ESP-CM3 hardware is fully open source and OSHWA certified. You can find files such as schematics, PCB layouts, project files, software to test the module, bill of materials, etc. in our GitHub repository. <br><br> The device is shipped without firmware or software. The Openthing 1 ESP-CM3 can run various operating systems such as Zephyr or Micropython, which are easy to use. We recommend Toit as RTOS for the module"
+		},
+		"open_source": {
+			"en-EN": "Open Source",
+			"de-DE": "Open Source"
+		},
+		"thing1_short_claim": {
+			"en-EN": "The powerful, affordable alternative to the Raspberry Pi Compute Module 3 based on ESP32 - maximum features in a compact design",
+			"de-DE": "Die leistungsstarke, erschwingliche Alternative zum Raspberry Pi Compute Module 3 auf ESP32-Basis - maximale Funktionen in kompaktem Design"
 		}
 	}
 }
