@@ -255,11 +255,8 @@ footer .mail.link{
 }
 
 @media(min-width:1700px){
-	html,body{
-		font-size: 1.165vw;
-	}
-	.wrapper{
-		max-width: unset;
+	.wrapper.thingsgrid {
+		max-width: 150em !important;
 	}
 }
 
