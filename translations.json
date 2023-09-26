@@ -357,7 +357,22 @@
 			"de-DE": "Zwei Sensoren, eine präzise Lösung: Genauigkeit im Flusswasserstand mit unserem Dual-Drucksensor-Konzept",
 			"en-EN": "Two sensors, one precise solution: Accuracy in river water level with our dual pressure sensor concept"
 		},
-		
+		"thing4_general_short_description": {
+			"de-DE": "Das Konzept dreht sich um die Installation eines hochpräzisen Sensorsystems in einem festgelegten Bereich. Dieses System besteht aus einer sorgfältig konstruierten Sensor-Matrix, bei der alle N Meter Sensoren platziert sind. Diese Sensoren sind in verschiedenen Höhen angebracht - einer am Boden, einer auf Höhe H und ein dritter Sensor in einer Zwischenposition.",
+			"en-EN": "The concept revolves around the installation of a high-precision sensor system in a defined area. This system consists of a carefully constructed sensor matrix, with sensors placed every N meters. These sensors are mounted at different heights - one at the bottom, one at height H, and a third sensor at an intermediate position."
+		},
+		"thing4_description_title": {
+			"de-DE": "Das Ziel",
+			"en-EN": "The Goal"
+		},
+		"thing4_description": {
+			"de-DE": "Unser Hauptziel besteht darin, kleinste Veränderungen in Umweltfaktoren wie Temperatur, Luftfeuchtigkeit und andere relevante Parameter in diesem Bereich zu erfassen und zu verfolgen. Diese Daten werden kontinuierlich erfasst und in einer umfassenden Datenbank gespeichert. </br></br> Das Schlüsselmerkmal unseres Konzepts liegt in der Möglichkeit, die gesammelten Informationen zu nutzen, um ein hochauflösendes 3D-Modell des Mikroklimas in diesem spezifischen Gebiet zu erstellen. Dieses Modell wird es Forschern und Anwendern ermöglichen, die räumliche Verteilung und Veränderungen der Umweltbedingungen inb Echtzeit zu visualisieren und zu analysieren. </br></br> Die Anwendungsmöglichkeiten dieses Konzepts sind vielfältig und reichen von Umweltforschung und -monitoring bis hin zur Optimierung von Ressourcenmanagement und nachhaltiger Planung. Wir sind davon überzeugt, dass unser Konzept dazu beitragen wird, die Erkenntnisse über Mikroklima-Veränderungen auf eine völlig neue Ebene zu heben und innovative Lösungen für die Herausforderungen des 21. Jahrhunderts zu bieten.",
+			"en-EN": "Our main goal is to capture and track the smallest changes in environmental factors such as temperature, humidity, and other relevant parameters in this area. This data is continuously collected and stored in a comprehensive database. </br></br> The key feature of our concept lies in the ability to use the collected information to create a high-resolution 3D model of the microclimate in this specific area. This model will enable researchers and users to visualize and analyze the spatial distribution and changes in environmental conditions in real-time. </br></br> The application possibilities of this concept are diverse and range from environmental research and monitoring to resource management optimization and sustainable planning. We are convinced that our concept will help to take the insights into microclimate changes to a whole new level and provide innovative solutions to the challenges of the 21st century."
+		},
+		"thing4_short_claim": {
+			"de-DE": "Präzise Umweltüberwachung und hochauflösende 3D-Modelle für eine nachhaltigere Zukunft.",
+			"en-EN": "Precise environmental monitoring and high-resolution 3D models for a more sustainable future."
+		}
 		
 	}
 }
