@@ -44,6 +44,7 @@ h5{
 a{
 	color: currentColor;
 	text-decoration: none;
+	cursor: pointer;
 }
 img{
 	user-select: none;
