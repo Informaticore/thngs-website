@@ -146,6 +146,9 @@ footer .mail.link{
 	padding: .2em 0;
 	border-bottom: .08em solid currentColor;
 }
+footer a{
+	user-select: none;
+}
 .companyname{
 	font-family: 'Archivo Narrow', sans-serif;
 	text-transform: uppercase;
