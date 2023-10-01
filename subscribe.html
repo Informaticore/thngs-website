@@ -30,15 +30,26 @@
 	</form>
 	
 	<script>
-		const scriptURL = 'https://script.google.com/macros/s/AKfycbx1Zqf_JfUCHlp-U5vijkTWnfn-wdh-mWE9FeSBUy4Oj2IcvhcD2MdYYw9gO_KJlmUJ-w/exec'
-		const form = document.forms['submit-to-google-sheet']
-	
-		form.addEventListener('submit', e => {
-			e.preventDefault()
-			fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-				.then(response => console.log('Success!', response))
-				.catch(error => console.error('Error!', error.message))
+		document.getElementById('subscribe-form').addEventListener('submit', function (e) {
+		e.preventDefault();
+		var email = document.getElementById('email').value;
+		var url = 'https://script.google.com/macros/s/AKfycbx1Zqf_JfUCHlp-U5vijkTWnfn-wdh-mWE9FeSBUy4Oj2IcvhcD2MdYYw9gO_KJlmUJ-w/exec';
+		
+		fetch(url, {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/x-www-form-urlencoded'
+			},
+			body: 'email=' + email
 		})
+		.then(response => response.text())
+		.then(data => {
+			alert(data); // Zeigen Sie eine Erfolgsmeldung an
+		})
+		.catch(error => {
+			console.error('Fehler:', error);
+		});
+	});
 	</script>
 </body>
 
