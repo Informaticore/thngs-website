@@ -24,32 +24,32 @@
 </head>
 
 <body class="preload">
-	<form name="submit-to-google-sheet">
-		<input name="email" type="email" placeholder="Email" required>
-		<button type="submit">Send</button>
+	<form name="subscribe-form">
+		<input id="email" name="email" type="email" placeholder="Email" required>
+		<button type="submit" onclick="send()">Send</button>
 	</form>
 	
 	<script>
-		document.getElementById('subscribe-form').addEventListener('submit', function (e) {
-		e.preventDefault();
-		var email = document.getElementById('email').value;
-		var url = 'https://script.google.com/macros/s/AKfycbx1Zqf_JfUCHlp-U5vijkTWnfn-wdh-mWE9FeSBUy4Oj2IcvhcD2MdYYw9gO_KJlmUJ-w/exec';
-		
-		fetch(url, {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/x-www-form-urlencoded'
-			},
-			body: 'email=' + email
-		})
-		.then(response => response.text())
-		.then(data => {
-			alert(data); // Zeigen Sie eine Erfolgsmeldung an
-		})
-		.catch(error => {
-			console.error('Fehler:', error);
-		});
-	});
+		function send() {
+			var email = document.getElementById('email').value;
+			var url = 'https://script.google.com/macros/s/AKfycbyc_qgskcKR7tGjfLnCSKCMVDN6MM8uS7YwNnZxDBWlUKvib379Qkv3zBn33jt_5gpEzQ/exec';
+			
+			fetch(url, {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/x-www-form-urlencoded'
+				},
+				body: 'email=' + email
+			})
+			.then(response => response.text())
+			.then(response => console.log(JSON.stringify(response)))
+			.then(data => {
+				alert(data); // Zeigen Sie eine Erfolgsmeldung an
+			})
+			.catch(error => {
+				console.error('Fehler:', error);
+			});
+	}
 	</script>
 </body>
 
