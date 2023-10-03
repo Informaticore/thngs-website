@@ -22,8 +22,8 @@
 			"de-DE": "Mirko Haeberlin - Gründer von OPEN THINGS"
 		},
 		"research_link": {
-			"en-EN": "Openthings & Research",
-			"de-DE": "Openthings & Forschung"
+			"en-EN": "Accessible Research",
+			"de-DE": "Accessible Research"
 		},
 		"opensource_link": {
 			"en-EN": "Open Source Approach",
@@ -90,8 +90,8 @@
 			"de-DE": "Jetzt bestellen"
 		},
 		"thing0_general_short_description": {
-			"en-EN": "Extremely durable sensor for temperature, pressure, humidity and light for your Open Thread network by Google.",
-			"de-DE": "Extrem langlebiger Sensor für Temperatur, Druck, Luftfeuchtigkeit und Licht für dein Open-Thread Netzwerk von Google."
+			"en-EN": "In an open-thread network from Google, this highly durable sensor provides reliable sensing of temperature, pressure, humidity and light to meet even the most demanding requirements.",
+			"de-DE": "In einem Open-Thread Netzwerk von Google bietet dieser äußerst langlebige Sensor eine zuverlässige Erfassung von Temperatur, Druck, Luftfeuchtigkeit und Licht, die selbst anspruchsvollen Anforderungen gerecht wird."
 		},
 		"thing0_dimensions_label": {
 			"en-EN": "Dimensions",
