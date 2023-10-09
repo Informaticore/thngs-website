@@ -149,6 +149,14 @@ footer .mail.link{
 footer a{
 	user-select: none;
 }
+.form-container {
+	display: flex;
+	align-items: center;
+}
+.input {
+	flex: 1; 
+	margin-right: 10px; 
+}
 .companyname{
 	font-family: 'Archivo Narrow', sans-serif;
 	text-transform: uppercase;
@@ -221,6 +229,11 @@ footer a{
 }
 .thing-description{
 	white-space: pre-wrap;
+}
+
+input[type="email"] {
+	padding: 10px;
+	font-size: 16px;
 }
 
 .cta{
