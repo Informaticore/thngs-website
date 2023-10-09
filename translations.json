@@ -250,8 +250,8 @@
 			"de-DE": "Die leistungsstarke, erschwingliche Alternative zum Raspberry Pi Compute Module 3 auf ESP32-Basis - maximale Funktionen in kompaktem Design"
 		},
 		"thing2_general_short_description": {
-			"de-DE": "Fotoaufnahmen von relativ kleinen Tiere, wie Eidechsen, Fröschen, kleinen Schlangen oder Mäusen, sind schwer, da sie von üblichen Bewegungsdetektoren leicht übersehen werden.\n Die hochsensible Openthing 2: RepTrap hilft Tierfotografen, Forschern und Enthusiasten, dabei diese Kreaturen in ihrer natürlichen Umgebung zu dokumentieren. (Funktioniert mit jeder Art von Kamera mit externem Eingang)",			
-			"en-EN": "Openthing 2 RepTrap is a detection device and camera trigger for capturing images of relatively small animals, including lizards, frogs and small snakes or mice, which are overlooked by common motion detectors. This device serves as an indispensable tool for animal photographers, researchers and enthusiasts who are eager to document these creatures in their natural environment. The device is designed to trigger any type of camera with an external input for a shutter trigger."
+			"de-DE": "Fotoaufnahmen von relativ kleinen Tiere, wie Eidechsen, Fröschen, kleinen Schlangen oder Mäusen, sind schwer, da sie von üblichen Bewegungsdetektoren leicht übersehen werden.\n Die hochsensible Openthing 2: RepTrap hilft Tierfotografen, Forschern und Enthusiasten, dabei diese Kreaturen in ihrer natürlichen Umgebung zu dokumentieren.",			
+			"en-EN": "Openthing 2 RepTrap is a detection device and camera trigger for capturing images of relatively small animals, including lizards, frogs and small snakes or mice, which are overlooked by common motion detectors. This device serves as an indispensable tool for animal photographers, researchers and enthusiasts who are eager to document these creatures in their natural environment."
 		},
 		"thing2_dimensions_label": {
 			"en-EN": "Dimensions",
@@ -318,8 +318,8 @@
 			"en-EN": "Read more at NABU"
 		},
 		"thing2_problem_title": {
-			"de-DE": "Das Problem",
-			"en-EN": "The Problem"
+			"de-DE": "DAS PROBLEM",
+			"en-EN": "THE PROBLEM"
 		},
 		"thing2_problem_desc": {
 			"de-DE": "Im Bereich der Tierforschung wird bei der herkömmlichen Methode zur Erfassung kleiner Tiere oft auf traditionelle Fallfallen zurückgegriffen. Diese Fallen bestehen in der Regel aus einem Behälter wie einem Eimer, der dazu dient, das Tier zu fangen, und langen Planen, die auf jeder Seite angebracht sind, um eine trichterförmige Struktur zu schaffen und das Tier in die Falle zu leiten. </br></br> Allerdings birgt dieser Ansatz erhebliche Herausforderungen und potenzielle Risiken für die gefangenen Tiere. Ein Hauptanliegen besteht darin, dass das gefangene Tier einmal gefangen im Inneren der Falle eingeschlossen bleibt und somit anfällig für Angriffe durch andere Tiere in der Umgebung ist. Zudem können ungünstige Wetterbedingungen wie starker Regen die Falle überfluten und das Risiko des Ertrinkens für das gefangene Tier erhöhen, wenn es nicht rechtzeitig überprüft werden kann. </br></br> Ein weiterer Nachteil dieser Fangmethode besteht darin, dass sie darauf angewiesen ist, dass Tiere freiwillig in den Behälter eintreten, was nicht jedes Tier dazu verleitet. Dies stellt für Forscher eine erhebliche Herausforderung dar, da einige Tiere nicht auf die Falle hereinfallen und es versäumen können, den vorgesehenen Behälter zu betreten, was verpasste Gelegenheiten zur Erforschung und Überwachung dieser scheuen Kreaturen zur Folge hat. </br></br>Die Openthing 2 RepTrap soll diesem Problem entgegenwirken und eine Alternative zu den herkömmlichen Methoden bieten.",
@@ -328,6 +328,30 @@
 		"thing2_short_claim": {
 			"de-DE": "Die innovative Lösung für Tierforschung - ohne Risiken und verpasste Gelegenheiten.",
 			"en-EN": "The innovative solution for animal research - without risks and missed opportunities."
+		},
+		"thing2_solution_title": {
+			"de-DE": "DIE LÖSUNG",
+			"en-EN": "THE SOLUTION"
+		},
+		"thing2_solution_text": { 
+			"de-DE": "Herkömmliche Bewegungssensoren basieren auf der Temperaturunterschied-Erkennung mit Hilfe von Infrarot-Sensoren. Dabei wird die Umgebung in kleine Segmente unterteilt und der Temperaturunterschied von einem zum anderen Segment erkannt - wenn sich ein warmes Objekt durch den Sichtbereich des Sensors bewegt. Durch die Segmentierung und die Wärmesignatur brauchen diese Objekte eine bestimmte Größe und einen Temperaturunterschied zur Umgebung, um erkannt zu werden. Reptilien wie Frösche, Eidechsen oder Schlangen haben aber meist kaum einen großen Temperaturunterschied zur Umgebung und sind auch nicht groß genug für die Segmente des Sensors. </br></br>Unser Ansatz ist nicht die Bewegung, sondern die Höhe eines Tieres, völlig egal ob warm oder kalt. Der RepTrap überwacht die Distanz vor dem Gerät über Infrarot-Laser Sensoren, sobald sich die Höhe unter dem Sensor verändert, wird das vom Sensor erkannt und ein Signal zum Auslösen der Kamera ausgegeben. Für die Installation muss man nur eine Art Tor aufbauen, welches der Sensor überwachen kann, es ist kein Loch mit einem Eimer mehr nötig. </br></br>Diese Installation kann für mehrere Tage unüberwacht an einem Ort bleiben, ohne dass Tiere gefährdet werden. Die Tiere werden nicht eingesperrt und sind damit nicht mehr den Gefahren von Regenwasser oder anderen Räubern ausgesetzt. Durch diese Lösung kann diese Art der Falle auch an entfernten Orten aufgebaut werden, wo nicht die Möglichkeit besteht, dass man die Falle jeden Tag überprüft.",
+			"en-EN": "Conventional motion sensors rely on temperature difference detection using infrared sensors. The environment is divided into small segments, and the temperature difference from one segment to another is detected when a warm object moves through the sensor's field of view. Due to the segmentation and the requirement for a distinct temperature difference from the surroundings, these objects need to have a certain size and temperature contrast to be detected. Reptiles such as frogs, lizards, or snakes usually have minimal temperature differences compared to their surroundings and are not large enough to trigger the sensor's segments. </br></br>Our approach does not focus on motion but rather on the height of an animal, regardless of whether it is warm or cold-blooded. The RepTrap monitors the distance in front of the device using infrared laser sensors. When the height under the sensor changes, the sensor detects it and sends a signal to activate the camera. Installation only requires setting up a gate-like structure that the sensor can monitor, eliminating the need for holes and buckets. </br></br>This installation can remain unattended at a location for several days without putting animals at risk. The animals are not confined, reducing exposure to risks such as rainwater or other predators. With this solution, this type of trap can also be set up in remote locations where daily trap checks may not be feasible. </br></br>"
+		},
+		"thing2_help_succeed_titel": {
+			"de-DE": "HELP THE PROJECT SUCCEED",
+			"en-EN": "HELP THE PROJECT SUCCEED"
+		},
+		"thing2_help_succeed_text": {
+			"de-DE": "Damit wir dieses Produkt Wirklichkeit werden lassen können, brauchen wir die Unterstützung vieler. Um einen Überblick zu bekommen, wie viel Interesse es für ein solches Produkt gibt, sammeln wir die E-Mail Adressen aller Interessierten. Die Anzahl entscheidet, ob das Projekt in die nächste Phase geht. Als Zeichen der Unterstützung einfach die E-Mail Adresse hinterlassen und Freunden und Kollegen über das Projekt erzählen.",
+			"en-EN": "To make this product a reality, we need the support of many. To get an idea of how much interest there is in such a product, we are collecting the email addresses of all interested parties. The number of email addresses collected will determine whether the project moves on to the next phase. To show your support, simply leave your email address and tell your friends and colleagues about the project."
+		},
+		"thing2_help_succeed_info_text":{
+			"de-DE": "*Die E-Mail wird ausschließlich verwendet, um über den aktuellen Status dieses Projekt zu informieren",
+			"en-EN": "*The email will only be used to inform about the current status of this project"
+		},
+		"subscribe": {
+			"en-EN": "Subscribe",
+			"de-DE": "Abonnieren"
 		},
 		"concept_label": {
 			"en-EN": "Concept",
