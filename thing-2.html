@@ -39,14 +39,54 @@
 						<h3 class="thing-headline" data-translatekey="card_title_thing2"></h3>
 						<p class="thing-description">120 x 23 mm</p>
 					</div>
-					<a class="cta right link" target="/blank" href="https://www.tindie.com/products/informatic0re/thread-sensor-tag" data-translatekey="order_now"></a>
+					<a class="cta right" href="#subscribe" data-translatekey="subscribe"></a>
+				</div>
+			</div>
+		</section>
+		<section id="general">
+			<div class="wrapper">
+				<h2 data-translatekey="thing2_general_short_description"></p>
+			</div>
+		</section>
+
+		<section id="scheme">
+			<div class="wrapper image">
+				<img src="assets/posts/thing-2/field_001.jpg" />
+			</div>
+		</section>
+
+		<section id="problem_desc">
+			<div class="wrapper">
+				<div class="wrapper more">
+					<h4 data-translatekey="thing2_problem_title"></h4>
+					<p data-translatekey="thing2_problem_desc"></p>
 				</div>
 			</div>
 		</section>
 
-		<section id="general">
+		<section id="scheme">
+			<div class="wrapper image">
+				<img src="assets/posts/thing-2/field_003.jpg" />
+			</div>
+		</section>
+
+		<section id="solution_desc">
 			<div class="wrapper">
-				<h2 data-translatekey="thing2_general_short_description"></h2>
+				<div class="wrapper more">
+					<h4 data-translatekey="thing2_solution_title"></h4>
+					<p data-translatekey="thing2_solution_text"></p>
+				</div>
+			</div>
+			<div id="subscribe" class="wrapper">
+				<div class="wrapper more programme">
+					<h4 data-translatekey="thing2_help_succeed_titel"></h4>
+					<p data-translatekey="thing2_help_succeed_text"></p>
+					<div class="form-container">
+						<input id="email" class="input" name="email" type="email" placeholder="Email" required>
+						<a class="cta right link" href="#subscribe" target="/blank" type="submit" onclick="send()" data-translatekey="subscribe"></a>
+					</div>
+					<p data-translatekey="thing2_help_succeed_info_text"></p>
+				</div>
 			</div>
 		</section>
 
@@ -94,34 +134,12 @@
 			</div>
 		</section>
 
-
-		<section id="nabu">
-			<div class="wrapper">
-				<div class="wrapper more programme">
-					<img src="assets/posts/thing-2/nabu-logo.png" width="100px" />
-					<h5 data-translatekey="thing2_nabu_title"></h5>
-					<p data-translatekey="thing2_nabu_description"></p>
-					<div class="linklist">
-						<a href="https://www.nabu.de/tiere-und-pflanzen/reptilien-und-amphibien/amphibien/10652.html" class="link" data-translatekey="thing2_nabu_link"></a>
-					</div>
-				</div>
-
-				<div class="wrapper more">
-					<h5 data-translatekey="thing2_problem_title"></h5>
-					<p data-translatekey="thing2_problem_desc"></p>
-					<a href="https://github.com/open-thngs/trap-a-rep-trigger" class="link" data-translatekey="github_repository_link"></a>
-				</div>
-			</div>
-
-		</section>
-
-
 		<section id="studiopics" class="stage">
 			<div class="wrapper">
 				<img src="assets/posts/thing-2/rep-trap-pcb-3D_blender_top.png" width="50%"/>
 				<div class="salesclaim">
 					<h3 data-translatekey="thing2_short_claim"></h3>
-					<a class="cta right link" data-translatekey="order_now"></a>
+					<!-- <a class="cta right link" data-translatekey="order_now"></a> -->
 				</div>
 			</div>
 		</section>
@@ -156,6 +174,25 @@
 	<script src="includehtml.js"></script>
 	<script src="animation.js"></script>
 	<script src="tinyi18n.js"></script>
+	<script>
+		function send() {
+			var email = document.getElementById('email').value;
+			var url = 'https://script.google.com/macros/s/AKfycbw484k8i9ugKvXLhnY1QY6gw19gxq9WcC_8y0uIbecpxKsUs5CKJ3Czu4cgE483EljX-w/exec';
+			
+			fetch(url, {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/x-www-form-urlencoded'
+				},
+				body: 'email=' + email
+			})
+			.then(response => response.text())
+			.then(response => console.log(JSON.stringify(response)))
+			.catch(error => {
+				console.error('Fehler:', error);
+			});
+		}
+	</script>
 </body>
 
 </html>

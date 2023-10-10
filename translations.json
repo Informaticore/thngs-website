@@ -14,7 +14,7 @@
 			"de-DE": "Accessible Research Technology"
 		},
 		"quote_text": {
-			"en-EN": "It's simple: I love technology but hate it, when companies shut down their support for perfectly goodproducts. That's why I created <span class='companyname'></span>. Affordable quality tech with open software: So you could run your things forever.",
+			"en-EN": "It's simple: I love technology but hate it, when companies shut down their support for perfectly good products. That's why I created <span class='companyname'></span>. Affordable quality tech with open software: So you can run your things forever.",
 			"de-DE": "Es ist einfach: Ich liebe Technologie, aber ich hasse es, wenn Unternehmen ihre Unterstützung für einwandfreie Produkte einstellen. Deshalb habe ich Open Things gegründet. Erschwingliche Technologie mit Open-Source-Software: Damit du deine Dinge für immer betreiben kannst."
 		},
 		"quote_author": {
@@ -50,7 +50,7 @@
 			"de-DE": "Thread Sensor Tag"
 		},
 		"card_description_thing0": {
-			"en-EN": "Extremely durable sensor for temperature, pressure, humidity and light",
+			"en-EN": "Extremely durable sensor for measuring temperature, pressure, humidity and light",
 			"de-DE": "Extrem langlebiger Sensor für Temperatur, Druck, Luftfeuchtigkeit und Licht"
 		},
 		"card_title_thing1": {
@@ -138,7 +138,7 @@
 			"en-EN": "The Thread Sensor Tag is an extremely compact, low-power sensor that accurately measures pressure, temperature, humidity, and brightness and transmits the data to the OpenThread network every 30 seconds. Thanks to its efficient power management, it offers an impressive runtime of up to 2.5 years with just one button cell battery. The 3D printed housing allows for effortless attachment to a variety of surfaces.</br></br>This open-source project aims to make the innovative Thread network technology more accessible. We recognize the immense potential of this technology for connecting smart products. Although OpenThread is not yet available everywhere, it represents the future. Both Apple and Google are preparing to have their devices communicate with each other via this secure and energy-efficient IPv6-based mesh network technology in the future."
 		},
 		"thing0_short_claim": {
-			"en-EN": "Compact, energy efficient and innovative. Your connection </br>to the future of networking </br>of smart products",
+			"en-EN": "Compact, energy efficient and innovative. Your connection </br>to the future of networking </br>with smart products",
 			"de-DE": "Kompakt, energieeffizient und innovativ. Ihre Verbindung </br>zur Zukunft der Vernetzung </br>von smarten Produkten"
 		},
 		"github_repository_link": {
@@ -251,7 +251,7 @@
 		},
 		"thing2_general_short_description": {
 			"de-DE": "Fotoaufnahmen von relativ kleinen Tiere, wie Eidechsen, Fröschen, kleinen Schlangen oder Mäusen, sind schwer, da sie von üblichen Bewegungsdetektoren leicht übersehen werden.\n Die hochsensible Openthing 2: RepTrap hilft Tierfotografen, Forschern und Enthusiasten, dabei diese Kreaturen in ihrer natürlichen Umgebung zu dokumentieren.",			
-			"en-EN": "Openthing 2 RepTrap is a detection device and camera trigger for capturing images of relatively small animals, including lizards, frogs and small snakes or mice, which are overlooked by common motion detectors. This device serves as an indispensable tool for animal photographers, researchers and enthusiasts who are eager to document these creatures in their natural environment."
+			"en-EN": "Openthing 2 RepTrap is a detection device and camera trigger for capturing images of relatively small animals, including lizards, frogs and small snakes or mice, which are overlooked by common motion detectors. This device serves as an indispensable tool for animal photographers, researchers and enthusiasts who are eager to document these creatures in their natural habitat."
 		},
 		"thing2_dimensions_label": {
 			"en-EN": "Dimensions",
@@ -366,8 +366,8 @@
 			"de-DE": "Spezifikationen"
 		},
 		"thing3_no_specs_desc": {
-			"en-EN": "Currently no specifications are known for this device",
-			"de-DE": "Aktuell sind noch keine Spezifikationen für dieses Gerät bekannt"
+			"en-EN": "We are currently working on the specifications for this device",
+			"de-DE": "Wir arbeiten derzeit an den Spezifikationen für dieses Gerät"
 		},
 		"thing3_description_title": {
 			"en-EN": "Idea",
@@ -403,7 +403,7 @@
 		},
 		"accessible_research_desc": {
 			"de-DE": "Bei <span class='companyname'></span> liegt unser Fokus auf der Entwicklung von Geräten für die Forschung. Doch wir haben auch ein weiteres Ziel: Wir möchten diese Geräte für die breite Öffentlichkeit zugänglich machen. Warum? Indem wir unsere Designs und Technologien öffentlich teilen, erhöhen wir die Verbreitung und Nutzung unserer Produkte. Durch den Ausbau unserer Nutzerbasis können wir kostengünstigere Lösungen entwickeln, ohne die Genauigkeit und Qualität unserer Geräte zu beeinträchtigen, und wir können die Wissenschaft näher an die Menschen heranbringen.<br><br> Unser Ansatz besteht darin, Forschungsinstrumente nicht länger für eine begrenzte Gruppe von Experten vorzubehalten. Stattdessen möchten wir Forschungsinstrumente erschwinglicher und weitgehend zugänglich machen, damit sie von einer vielfältigen Gemeinschaft von Wissenschaftlern, Forschern und Enthusiasten genutzt werden können. Wir glauben, dass die Förderung von Offenheit und Zusammenarbeit es uns ermöglichen wird, innovative Lösungen zu entwickeln, die einen positiven Einfluss auf die Gesellschaft als Ganzes haben.",
-			"en-EN": "At <span class='companyname'></span>, our focus is on developing devices for research. But we have another goal: We want to make these devices accessible to the general public. Why? By sharing our designs and technologies publicly, we increase the distribution and use of our products. By expanding our user base, we can develop more cost-effective solutions without compromising the accuracy and quality of our devices, and we can bring science closer to the people.<br><br>Our approach is to no longer reserve research instruments for a limited group of experts. Instead, we want to make research instruments more affordable and widely accessible so that they can be used by a diverse community of scientists, researchers, and enthusiasts. We believe that promoting openness and collaboration will enable us to develop innovative solutions that have a positive impact on society as a whole."
+			"en-EN": "At <span class='companyname'></span>, our focus is on developing devices for research. But we also have a second goal: We want to make these devices accessible to the general public. Why? By sharing our designs and technologies publicly, we increase the distribution and use of our products. By expanding our user base, we can develop more cost-effective solutions without compromising the accuracy and quality of our devices, and we can bring science closer to the people.<br><br>Our approach is to no longer reserve research instruments for a limited group of experts. Instead, we want to make research instruments more affordable and widely accessible so that they can be used by a diverse community of scientists, researchers, and enthusiasts. We believe that promoting openness and collaboration will enable us to develop innovative solutions that have a positive impact on society as a whole."
 		},
 		"open_source_approach_title": {
 			"de-DE": "Open Source Approach",
@@ -561,38 +561,38 @@
 		"Custom_Thing": {
 			"de-DE": "Maßgeschneidertes Produkt",
 			"en-EN": "Custom Thing"
-	},
-	"Custom_Thing_Description": {
-			"de-DE": "Wir erstellen Ihr Produkt!",
-			"en-EN": "We make your thing!"
-	},
-	"Contact_Now": {
-			"de-DE": "Jetzt kontaktieren",
-			"en-EN": "Contact Now"
-	},
-	"Custom_Solutions_Title": {
-			"de-DE": "Unsere hochqualifizierten Experten arbeiten eng mit Ihnen zusammen, um maßgeschneiderte Lösungen zu entwickeln, die exakt auf Ihre individuellen Bedürfnisse zugeschnitten sind. Wir verstehen, dass jeder Kunde einzigartig ist und unterschiedliche Anforderungen hat. Daher legen wir großen Wert darauf, Ihre speziellen Anforderungen und Ziele zu verstehen, um Ihnen die bestmögliche Lösung anzubieten.",
-			"en-EN": "Our highly skilled experts work closely with you to develop customized solutions tailored to your specific needs. We understand that each customer is unique and has different requirements. Therefore, we place great emphasis on understanding your specific requirements and goals to provide you with the best possible solution."
-	},
-	"What_We_Offer_Title": {
-			"de-DE": "Was wir anbieten",
-			"en-EN": "What We Offer"
-	},
-	"Custom_Hardware_Solutions_Text": {
-			"de-DE": "Suchen Sie maßgeschneiderte Hardwarelösungen mit klarem Fokus auf Klimaforschung, Klimadatenanalyse, Naturschutz oder Tierschutz? Wir verstehen die kritische Bedeutung dieser Bereiche für die Erhaltung unseres Planeten und setzen unsere technische Expertise ein, um innovative Lösungen für diese Anliegen zu entwickeln.",
-			"en-EN": "Are you looking for custom hardware solutions with a clear focus on climate research, climate data analysis, conservation, or animal welfare? We understand the critical importance of these areas for preserving our planet and apply our technical expertise to develop innovative solutions for these concerns."
-	},
-	"In_Collaboration_With_Organizations_Text": {
-			"de-DE": "In enger Zusammenarbeit mit führenden Organisationen und Einrichtungen, die sich dem Schutz des Klimas und der Tierwelt verschrieben haben, konzipieren und fertigen wir Hardware, die präzise Datenerfassung und Analyse ermöglicht. Unsere maßgeschneiderten Lösungen tragen dazu bei, Umweltveränderungen zu überwachen, Tierbewegungen zu verfolgen, Klimadaten zu erfassen und Naturschutzprojekte effektiver zu gestalten.",
-			"en-EN": "In close collaboration with leading organizations and institutions dedicated to climate and wildlife conservation, we design and manufacture hardware that enables precise data collection and analysis. Our customized solutions contribute to monitoring environmental changes, tracking animal movements, capturing climate data, and enhancing conservation projects' effectiveness."
-	},
-	"Dedicated_Expert_Team_Text": {
-			"de-DE": "Unser Team von Experten teilt Ihre Leidenschaft für den Schutz unseres Planeten und setzt sich dafür ein, fortschrittliche Technologie in den Dienst von Umweltschutz und Tierschutz zu stellen. Wenn Sie nach zuverlässigen Partnern suchen, um Ihre Visionen im Bereich Klimaforschung, Naturschutz und Tierschutz zu verwirklichen, sind wir Ihr vertrauenswürdiger Ansprechpartner für maßgeschneiderte Hardware-Lösungen, die den höchsten Standards entsprechen.",
-			"en-EN": "Our team of experts shares your passion for protecting our planet and is committed to putting advanced technology in the service of environmental and animal welfare. If you are looking for reliable partners to realize your visions in climate research, conservation, and animal welfare, we are your trusted source for customized hardware solutions that meet the highest standards."
-	},
-	"Schedule_An_Appointment_Now": {
-			"de-DE": "Jetzt einen Termin vereinbaren",
-			"en-EN": "Schedule an Appointment Now"
-	}
+		},
+		"Custom_Thing_Description": {
+				"de-DE": "Wir bauen Ihr Produkt!",
+				"en-EN": "We build your thing!"
+		},
+		"Contact_Now": {
+				"de-DE": "Jetzt kontaktieren",
+				"en-EN": "Contact Now"
+		},
+		"Custom_Solutions_Title": {
+				"de-DE": "Unsere hochqualifizierten Experten arbeiten eng mit Ihnen zusammen, um maßgeschneiderte Lösungen zu entwickeln, die exakt auf Ihre individuellen Bedürfnisse zugeschnitten sind. Wir verstehen, dass jeder Kunde einzigartig ist und unterschiedliche Anforderungen hat. Daher legen wir großen Wert darauf, Ihre speziellen Anforderungen und Ziele zu verstehen, um Ihnen die bestmögliche Lösung anzubieten.",
+				"en-EN": "Our highly skilled experts work closely with you to develop customized solutions tailored to your specific needs. We understand that each customer is unique. Therefore, we place great emphasis on understanding your specific requirements and goals to provide you with the best possible solution."
+		},
+		"What_We_Offer_Title": {
+				"de-DE": "Was wir anbieten",
+				"en-EN": "What We Offer"
+		},
+		"Custom_Hardware_Solutions_Text": {
+				"de-DE": "Suchen Sie maßgeschneiderte Hardwarelösungen mit klarem Fokus auf Klimaforschung, Klimadatenanalyse, Naturschutz oder Tierschutz? Wir verstehen die kritische Bedeutung dieser Bereiche für die Erhaltung unseres Planeten und setzen unsere technische Expertise ein, um innovative Lösungen für diese Anliegen zu entwickeln.",
+				"en-EN": "Are you looking for custom hardware solutions with a clear focus on climate research, climate data analysis, conservation, or animal welfare? We understand the critical importance of these areas for preserving our planet and apply our technical expertise to develop innovative solutions for these concerns."
+		},
+		"In_Collaboration_With_Organizations_Text": {
+				"de-DE": "In enger Zusammenarbeit mit führenden Organisationen und Einrichtungen, die sich dem Schutz des Klimas und der Tierwelt verschrieben haben, konzipieren und fertigen wir Hardware, die präzise Datenerfassung und Analyse ermöglicht. Unsere maßgeschneiderten Lösungen tragen dazu bei, Umweltveränderungen zu überwachen, Tierbewegungen zu verfolgen, Klimadaten zu erfassen und Naturschutzprojekte effektiver zu gestalten.",
+				"en-EN": "In close collaboration with leading organizations and institutions dedicated to climate and wildlife conservation, we design and manufacture hardware that enables precise data collection and analysis. Our customized solutions contribute to monitoring environmental changes, tracking animal movements, capturing climate data, and enhancing conservation projects' effectiveness."
+		},
+		"Dedicated_Expert_Team_Text": {
+				"de-DE": "Unser Team von Experten teilt Ihre Leidenschaft für den Schutz unseres Planeten und setzt sich dafür ein, fortschrittliche Technologie in den Dienst von Umweltschutz und Tierschutz zu stellen. Wenn Sie nach zuverlässigen Partnern suchen, um Ihre Visionen im Bereich Klimaforschung, Naturschutz und Tierschutz zu verwirklichen, sind wir Ihr vertrauenswürdiger Ansprechpartner für maßgeschneiderte Hardware-Lösungen, die den höchsten Standards entsprechen.",
+				"en-EN": "Our team of experts shares your passion for protecting our planet and is committed to putting advanced technology in the service of environmental and animal welfare. If you are looking for reliable partners to realize your visions in climate research, conservation, and animal welfare, we are your trusted source for customized hardware solutions that meet the highest standards."
+		},
+		"Schedule_An_Appointment_Now": {
+				"de-DE": "Jetzt einen Termin vereinbaren",
+				"en-EN": "Schedule an Appointment Now"
+		}
 	}
 }
