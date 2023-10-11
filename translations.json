@@ -349,6 +349,14 @@
 			"de-DE": "*Die E-Mail wird ausschließlich verwendet, um über den aktuellen Status dieses Projekt zu informieren",
 			"en-EN": "*The email will only be used to inform about the current status of this project"
 		},
+		"thing2_story_title": {
+			"de-DE": "THE STORY",
+			"en-EN": "THE STORY"
+		},
+		"thing2_story_text":{
+			"de-DE": "Im Mai 2023 hatte ich die Gelegenheit, als Fotograf und freiwilliger Helfer für die Organisationen FaunaForver und Wilderness International im Amazonas-Regenwald in Peru tätig zu sein und Fotos für sie anzufertigen. Während meines Aufenthalts im Dschungel hatte ich außerdem die Gelegenheit, mit Chris Ketola über aktuelle Herausforderungen zu sprechen, für die es möglicherweise noch keine Lösungen gibt. Er informierte mich über das Problem der Falltraps und die damit verbundenen Schwierigkeiten. In meiner Freizeit im Dschungel habe ich jede verfügbare Minute genutzt, um Lösungen für dieses und andere Probleme zu erarbeiten. Eine der entwickelten Lösungen befindet sich auf dieser Webseite.",
+			"en-EN": "In May 2023, I had the opportunity to work as a photographer and volunteer for the organizations FaunaForver and Wilderness International in the Amazon rainforest in Peru and take photos for them. During my stay in the jungle, I also had the opportunity to talk to Chris Ketola about current challenges for which there may not yet be solutions. He informed me about the problem of pitfall traps and the associated difficulties. In my spare time in the jungle, I used every available minute to work on solutions to this and other problems. One of the solutions developed can be found on this website."
+		},
 		"subscribe": {
 			"en-EN": "Subscribe",
 			"de-DE": "Abonnieren"
